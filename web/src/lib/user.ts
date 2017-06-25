@@ -156,12 +156,13 @@ export default class User {
   }
 
   public hasAgreedToPrivacy() {
-    return this.state.privacyAgreed;
+    //return this.state.privacyAgreed;
+    return false;
   }
 
   public agreeToPrivacy() {
-    this.state.privacyAgreed = true;
-    this.save();
+    // this.state.privacyAgreed = true;
+    // this.save();
   }
 
   public tallyRecording() {
