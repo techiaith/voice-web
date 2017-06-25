@@ -364,7 +364,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderTab('/', 'home')}
       {this.renderTab('/record', 'speak')}
       {this.renderTab('/listen', 'listen')}
-      {this.renderTab('/profile', 'profile')}
     </nav>;
   }
 
