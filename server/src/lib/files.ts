@@ -14,20 +14,26 @@ const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
+
 export default class Files {
   private s3: any;
   private files: {
     // fileGlob: [
-    //   sentence: 'the text of the sentenct'
+    //   sentence: 'the text of the sentence',
+    //   votes: vote count for fileGlob
     // ]
   };
   private paths: string[];
+  private voteSets: {
+    // vote: Set of globs with this vote count
+  };
   private continuationToken: string;
 
   constructor() {
     this.s3 = new AWS.S3();
     this.files = {};
     this.paths = [];
+    this.voteSets = {};
     this.continuationToken = undefined;
     this.init().then(() => {
       setInterval(this.init.bind(this), REFRESH_INTERVAL);
@@ -59,6 +65,34 @@ export default class Files {
   }
 
   /**
+   * Read votes in from s3.
+   */
+  private getVotes(glob: string, key: string) {
+    let prefix = glob + '-by-';
+    let params = {Bucket: BUCKET_NAME, Prefix: prefix};
+    this.s3.listObjectsV2(params, (err: any, s3Data: any) => {
+      if (err) {
+        console.error('Could not read votes from s3', key, err);
+        return;
+      }
+
+      let votes = s3Data['Contents'].length;
+
+      if (!this.voteSets[this.files[glob].votes]) {
+        this.voteSets[this.files[glob].votes] = {};
+      }
+      delete this.voteSets[this.files[glob].votes][glob];
+
+      this.files[glob].votes = votes;
+
+      if (!this.voteSets[this.files[glob].votes]) {
+        this.voteSets[this.files[glob].votes] = {};
+      }
+      this.voteSets[this.files[glob].votes][glob] = glob;
+    });
+  }
+
+  /**
    * Load a list of files from S3.
    */
   private init(): Promise<any> {
@@ -82,10 +116,12 @@ export default class Files {
           // Track gobs and sentence of the voice clips.
           if (!this.files[glob]) {
             this.files[glob] = {
-              sentence: null
+              sentence: null,
+              votes: 0
             }
             this.getSentence(glob, key);
           }
+          this.getVotes(glob, key);
         }
       });
 
@@ -126,14 +162,18 @@ export default class Files {
       return Promise.reject('No files not from us.');
     }
 
-    // Make a reasonable effort to find a valid sentence
-    for(let attempt = 0; attempt < items.length; attempt++) {
-      let glob = items[Math.floor(Math.random()*items.length)];
-      let key = glob + MP3_EXT;
-      let info = this.files[glob];
+    let votes = Object.keys(this.voteSets).sort();
+    for (let voteIndex = 0; voteIndex < votes.length; voteIndex++) {
+      let vote = votes[voteIndex];
+      let currentVoteSetKeys = Object.keys(this.voteSets[vote]);
+      for (let index = 0; index < currentVoteSetKeys.length; index++) {
+        let glob = currentVoteSetKeys[index];
+        let key = glob + MP3_EXT;
+        let info = this.files[glob];
 
-      if (info && info.sentence && /\S/.test(info.sentence) && key) {
-        return Promise.resolve([key, info.sentence]);
+        if (info && info.sentence && /\S/.test(info.sentence) && key) {
+          return Promise.resolve([key, info.sentence]);
+        }
       }
     }
 
