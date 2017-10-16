@@ -2,9 +2,40 @@
 # yarn lockfile v1
 
 
+"@types/mime@*":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
+
+"@types/mkdirp@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.5.1.tgz#ea887cd024f691c1ca67cce20b7606b053e43b0f"
+  dependencies:
+    "@types/node" "*"
+
+"@types/mysql@0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-0.0.34.tgz#edebdd2f75cb9c1420e4b66e066c0c5c5e46dd7b"
+  dependencies:
+    "@types/node" "*"
+
+"@types/node-static@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node-static/-/node-static-0.7.0.tgz#135c408a9976d8ed8fb94c4b6e958ecaddfdca12"
+  dependencies:
+    "@types/mime" "*"
+    "@types/node" "*"
+
+"@types/node@*":
+  version "8.0.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.34.tgz#55f801fa2ddb2a40dd6dfc15ecfe1dde9c129fe9"
+
 "@types/node@7.0.29":
   version "7.0.29"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.29.tgz#ccfcec5b7135c7caf6c4ffb8c7f33102340d99df"
+
+"@types/random-js@^1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@types/random-js/-/random-js-1.0.30.tgz#33fd57ae4fdbdc1aed3f76a875bd1da5a9428808"
 
 abbrev@1:
   version "1.1.1"
@@ -334,10 +365,6 @@ block-stream@*:
   resolved "https://registry.yarnpkg.com/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
   dependencies:
     inherits "~2.0.0"
-
-bluebird@^3.5.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
 boom@2.x.x:
   version "2.10.1"
@@ -2488,10 +2515,6 @@ math-expression-evaluator@^1.2.14:
 mediaserver@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/mediaserver/-/mediaserver-0.1.0.tgz#aa13029d5c80493807893dbb64c6cc7fdc726d52"
-
-memorystream@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/memorystream/-/memorystream-0.3.1.tgz#86d7090b30ce455d63fbae12dda51a47ddcaf9b2"
 
 merge-stream@^1.0.0:
   version "1.0.1"

@@ -4,6 +4,10 @@ class { 'nodejs':
   repo_url_suffix => '6.x',
 }
 
+class { 'yarn': }
+
+Package['nodejs'] -> Package['yarn']
+
 package { 'gulp':
   ensure   => '3.9.1',
   provider => 'npm',
@@ -32,11 +36,12 @@ package { 'libpq-dev':
 
 # Install service dependencies
 exec { 'install deps':
-  command => 'npm install --unsafe-perm',
+  command => 'yarn install',
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
+    Package['yarn'],
     Package['gulp'],
     Package['libmysqlclient-dev'],
   ],
