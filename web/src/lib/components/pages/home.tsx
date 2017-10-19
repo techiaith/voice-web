@@ -53,7 +53,7 @@ export default class Home extends Component<Props, void> {
         </div>
         <div id="donate">
           <button onClick={evt => {
-            this.props.navigate('/record')}}>Cyfranwch eich lais!</button>
+            this.props.navigate('/record')}}>Cyfrannwch eich llais!</button>
         </div>
       </div>
       <div id="try-it-container">

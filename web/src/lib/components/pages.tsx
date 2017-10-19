@@ -425,11 +425,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
       </div>
       <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
         <div class="privacy-content">
-          <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice</a>.
-          </h2>
+	  <h2>Wrth defnyddio gwefan Paldaruo, rydych yn datgan eich bod wedi darllen a derbyn y <a target"_blank" href="/terms">Telerau</a> a'r <a target="_blank" href="/privacy">Polisi Preifatrwydd</a>.
           <div class="button-holder">
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>I agree</button>
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>I do not agree</button>
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>Rwy'n cytuno</button>
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>Nid wyf yn cytuno</button>
           </div>
         </div>
       </div>

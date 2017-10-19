@@ -136,11 +136,11 @@ export default class ListenBox extends Component<Props, State> {
                            (this.state.playing ? ' playing' : '')}>
       <div className="sentence-box">
         <b style={!this.props.vote ? 'display: none;' : ''}>
-          What we asked them to read:
+          Beth ofynnwyd iddyn nhw ddarllen:
         </b>{this.props.sentence}
       </div>
       <div onClick={this.onPlay} class="play-box">
-        <b style={!this.props.vote ? 'display: none;' : ''}>What they said:</b>
+        <b style={!this.props.vote ? 'display: none;' : ''}>Beth ddywedon nhw:</b>
         <Icon type={this.state.playing ? 'pause': 'play'} />
       </div>
       <div style={this.props.vote ? 'display: none;' : ''} class="delete-box"
@@ -149,9 +149,9 @@ export default class ListenBox extends Component<Props, State> {
       </div>
       <div style={!this.props.vote ? 'display: none;' : ''} className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
         <a onClick={this.voteYes}>
-          <Icon type="check"/>Yes!</a>
+          <Icon type="check"/>Ie!</a>
         <a onClick={this.voteNo}>
-          <Icon type="x"/>Nope.</a>
+          <Icon type="x"/>Nagi.</a>
       </div>
       <audio className="audio-box"
         src={this.props.src}

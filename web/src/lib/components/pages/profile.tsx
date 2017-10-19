@@ -221,7 +221,7 @@ export default class Profile extends Component<Props, State> {
 
     return <div id="profile-container" className={this.props.active}>
 
-      <h2>Demographic Data</h2>
+      <h2>Data Demograffig</h2>
 
       <label for="profile-age"> * Beth yw'ch oedran?</label>
       <select onChange={this.update} id="profile-age"
@@ -305,9 +305,10 @@ export default class Profile extends Component<Props, State> {
       <br />
 
       <button id="save-demos" onClick={this.saveDemographics}
-        className={accentModified || ageModified || genderModified ?
+        className={accentModified || ageModified || genderModified || regionalaccentModified || contextModified ||
+			frequencyModified || homeregionModified || schoolModified || childhoodModified ?
           'dark highlight': 'dark'}>
-        Save changes
+       Cadw Data Demograffig
       </button>
     </div>;
   }

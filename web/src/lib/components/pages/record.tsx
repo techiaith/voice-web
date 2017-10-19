@@ -358,9 +358,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (!this.hasProfile()){
         return <div id="record-container" className={className}>
           <h2>
-                Mae angen rhoi manylion er mwyn dechrau recordio
+                Mae angen i chi rhoi eich manylion demograffig yn gyntaf cyn dechrau recordio
           </h2>
-          <a href="/profile">Rhoi manylion proffil</a>
+          <a href="/profile">Cliciwch yma i roi eich manylion demograffig</a>
         </div>;
     }
 
