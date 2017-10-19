@@ -1,6 +1,7 @@
 import * as http from 'http';
 import API from './lib/api';
-import Clip from './lib/clip';
+//import Clip from './lib/clip';
+import Clip from './lib/wav-clip';
 import Logger from './lib/logger';
 import Static from './lib/static';
 
