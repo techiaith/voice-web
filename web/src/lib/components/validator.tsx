@@ -3,7 +3,7 @@ import ListenBox from './listen-box';
 import { ClipJson, default as API } from '../api';
 
 const LOADING_MESSAGE = 'Llwytho...';
-const LOAD_ERROR_MESSAGE = 'Mae'n ddrwg gennym! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto yn fuan.';
+const LOAD_ERROR_MESSAGE = "Mae'n ddrwg gennym! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto yn fuan.";
 
 interface Props {
   api: API;
