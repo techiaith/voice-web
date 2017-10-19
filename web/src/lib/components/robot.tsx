@@ -61,12 +61,7 @@ export default class Robot extends Component<Props, State> {
   }
 
   render() {
-    return <div className={'robot ' + this.props.position}>
-             <div class="bubble" onClick={this.handleSpeechClick}>
-               {this.state.speech}
-             </div>
-             <img src={this.state.src} />
-             <RobotTalker>{this.props.children}</RobotTalker>
-           </div>;
-  }
+	return <br />
+   }
+
 }

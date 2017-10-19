@@ -8,25 +8,41 @@ interface State {
 
 export default class PrivacyContent extends Component<Props, State> {
   render() {
-    return <div class="terms-content">
-      <h1>Common Voice Legal Terms</h1>
-      <h2>Effective June 19, 2017</h2>
-      <h3>Eligibility</h3>
-      <p>You must be over the age of 13 or have your parent or guardian consent to and supervise your participation in our crowd-sourcing project.</p>
-      <h3>Privacy</h3>
-      <p>Our <a href="/privacy">Privacy Notice</a> explains how we receive and handle your data.</p>
-      <h3>Your Contributions and Release of Rights</h3>
-      <p>By submitting your recordings, you waive all copyrights and related rights that you may have in them, and you agree to release the recordings to the public under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a>. This means that you agree to waive all rights to the recordings worldwide under copyright and database law, including moral and publicity rights and all related and neighboring rights.</p>
-      <h3>Communications</h3>
-      <p>If you subscribe to receive our newsletters or register for an account in connection with Common Voice, you may receive emails from us in connection with your account (for example, legal, privacy, and security updates).</p>
-      <h3>General</h3>
-      <p>Disclaimer; Limitation of Liability: COMMON VOICE AND ALL INCLUDED RECORDINGS ARE PROVIDED ON AN "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. MOZILLA TAKES NO RESPONSIBILITY AND ASSUMES NO LIABILITY FOR ANY RECORDINGS THAT YOU OR ANY OTHER USER OR THIRD PARTY POSTS OR TRANSMITS USING COMMON VOICE.</p>
-      <p>MOZILLA SPECIFICALLY DISCLAIMS ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.</p>
-      <p>TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOU AGREE TO RELEASE AND HOLD HARMLESS MOZILLA CORPORATION AND ITS RESPECTIVE PARENT, SUBSIDIARIES, AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS (THE "MOZILLA PARTIES"), FROM ANY AND ALL LIABILITY FOR ANY DAMAGE, LOSS OR DELAY (INCLUDING PERSONAL INJURY, DEATH, OR PROPERTY DAMAGE) RESULTING IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, FROM YOUR PARTICIPATION IN COMMON VOICE.</p>
-      <p>EXCEPT AS REQUIRED BY LAW, MOZILLA AND THE MOZILLA PARTIES WILL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN ANY WAY RELATING TO THESE TERMS OR THE USE OF OR INABILITY TO USE THE SERVICES, INCLUDING WITHOUT LIMITATION DIRECT AND INDIRECT DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, LOST PROFITS, LOSS OF DATA, AND COMPUTER FAILURE OR MALFUNCTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF THE THEORY (CONTRACT, TORT, OR OTHERWISE) UPON WHICH SUCH CLAIM IS BASED. THE COLLECTIVE LIABILITY OF MOZILLA AND THE MOZILLA PARTIES UNDER THIS AGREEMENT WILL NOT EXCEED $500 (FIVE HUNDRED DOLLARS). SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL, CONSEQUENTIAL, OR SPECIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.</p>
-      <p>Updates: Mozilla may update these Terms from time to time to address a new feature of the Services or to clarify a provision. The updated Terms will be posted online. If the changes are substantive, we will announce the update through Mozilla's usual channels for such announcements such as blog posts and forums. Your continued use of the Services after the effective date of such changes constitutes your acceptance of such changes. To make your review more convenient, we will post an effective date at the top of this page.</p>
-      <p>Termination: We may suspend or terminate your access to the Services at any time for any reason, we will make reasonable efforts to notify you by the email address associated with your account or the next time you attempt to access the Services. Regardless of any termination, all recordings that you submit to Mozilla will continue to be publicly available.</p>
-      <p>Governing Law: These Legal Terms constitute the entire agreement between you and Mozilla concerning Common Voice and are governed by the laws of the state of California, U.S.A.</p>
+    // @todo - cyfieithu
+    return <div class="terms-content">	
+	<h1>TELERAU AC AMODAU PALDARUO</h1>
+	<h3>Cyflwyniad</h3>
+	<p>Mae’r testun canlynol yn rhoi’r telerau a’r amodau i chi gymryd rhan yn y project Paldaruo i dorfoli recordiadau o leferydd Cymraeg.</p>
+	<h3>Privacy</h3>
+	<p>Mae ein <a href="/privacy">Hysbysiad Preifatrwydd</a> yn esbonio sut ydym yn derbyn ac yn trin eich data.</p>
+	<h3>Cymhwystra</h3>
+	<p>Rydym yn ofalus iawn am ddiogelwch data defnyddwyr ap Paldaruo, yn enwedig plant. Dylai plant o dan 17 oed cael caniatâd gan rieni/gwarcheidwaid cyn defnyddio’r ap Paldaruo. Hefyd dylai rhieni/ gwarcheidwaid sy’n caniatáu i’w plentyn ddefnyddio’r ap oruchwylio hynny’n ofalus. Drwy ganiatáu i’ch plentyn gael defnyddio’r ap Paldaruo, rydych chi’n caniatáu i’ch plentyn anfon eu recordiadau a metadata atom.</p>
+	<h3>Eich Cyfraniad a Rhyddhau Hawliau</h3>
+	<p>Wrth i chi ddefnyddio’r ap Paldaruo, bydd recordiadau o’ch llais yn cael eu llwytho i fyny i’w cadw ar ein gweinyddion. Gall y recordiadau gael eu defnyddio yn y dyfodol ar gyfer ymchwil academaidd, datblygu systemau adnabod lleferydd ac offer iaith tebyg.</p>
+	<p>Drwy gyflwyno eich recordiadau, rydych chi’n ildio pob hawl hawlfraint a hawliau cysylltiedig y gall fod gennych ynddyn nhw, ac rydych chi’n cytuno i ryddhau’r recordiadau i’r cyhoedd eu defnyddio. Ystyr hyn yw eich bod yn rhoi’r gorau i bob hawl i’r recordiadau drwy’r byd i gyd dan gyfraith hawlfraint a chronfeydd data, gan gynnwys hawliau moesol a chyhoeddusrwydd a phob hawl perthynol neu gyfagos.</p>      	
+        <h3>Gohebiaeth</h3>
+	<p>Os hoffech chi dderbyn rhagor o newyddion am y project, yna rhowch eich cyfeiriad e-bost i ni. Ni fydd cysylltiad rhwng y recordiadau a’r cyfeiriadau e-bost ac felly ni fydd yn bosibl adnabod cyfranwyr unigol</p>
+	<h3>Cyffredinol</h3>
+	<p>Gall y telerau hyn newid dros amser, ac os digwydd hynny, byddwn yn dweud wrthych ac yn gofyn i chi ddarllen a derbyn y telerau defnydd unwaith eto.</p>
+	<p>Drwy glicio ar y botwm "Anfon" rydych chi yn caniatáu i’ch recordiadau a’ch data gael eu danfon at ein gweinyddion ar gyfer holl ddibenion project Paldaruo.</p>
+	
+	<hr/>
+
+	<h1 id="english">PALDARUO TERMS AND CONDITIONS</h1>
+	<h3>Introduction</h3>
+	<p>The following text sets the terms and conditions for your participation in the Paldaruo project for crowd-sourcing recordings of Welsh language speech.</p>
+	<h3>Privacy</h3>
+	<p>Our <a href="/privacy">Privacy Notice</a> explains how we receive and handle your data.</p>
+	<h3>Eligibility</h3>
+	<p>We are very careful about the safety of contributors data, especially children. Children under 17 years old should have consent from a parent/ guardian before using the Paldaruo website to submit their recordings. Also, parents / guardians who consent to their children using the website should supervise them carefully. Through consenting to your child using the Paldaruo website, you consent to your child sending their recordings and metadata to us.</p>
+	<h3>Your Contributions and Release of Rights</h3>
+	<p>While you are using the Paldaruo website, recordings of your voice will be uploaded and kept on our servers. The recordings can be used in the future for academic research, developing speech recognition systems and similar language equipment in the future.</p>
+      	<p>By submitting your recordings, you waive all copyrights and related rights that you may have in them, and you agree to release the recordings for public consumption. This means that you agree to waive all rights to the recordings worldwide under copyright and database law, including moral and publicity rights and all related and neighboring rights.</p>
+        <h3>Communications</h3>
+	<p>If you would like further news of the project you can provide us with your email address. There will be no connection between the recordings and email addresses so it will not be possible to identify individual contributors.</p>
+	<h3>General</h3>
+	<p>These terms can change from time to time. If this happens, we will inform you and ask you to read and accept the user terms once again.</p>
+	<p>Through clicking the "Anfon" (Submit) button, you consent to your recordings and data being sent to our servers and used for all the aims of the Paldaruo project.</p>
     </div>;
   }
 }

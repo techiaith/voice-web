@@ -377,37 +377,43 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Terms active={this.isPageActive(URLS.TERMS)} />
           <NotFound active={this.isNotFoundActive()} />
         </div>
-        <footer>
-          <div id="help-links">
-            <div class="content">
-              <a id="help" onClick={this.linkNavigate}
-                 href="/faq">
-                <Icon type="help" />
-                <p class="strong">Help</p>
-              </a>
-              <a id="contribute"
-                 target="_blank" href="https://github.com/mozilla/voice-web">
-                <Icon type="github" />
-                <p class="strong">Contribute</p>
-              </a>
-              <a id="discourse"
-                 target="blank" href="https://discourse.mozilla-community.org/c/voice">
-                <Icon type="discourse" />
-                <p class="strong">Community</p>
-              </a>
-            </div>
-          </div>
+        <footer>          
           <div id="moz-links">
+	    <div class="content">
+		   <img src="/img/pb.jpg" />  
+		   <img src="/img/WelshGovtlogo.png" />
+	    </div>
+	    <div class="content">
+		<p>
+		    Ariannwyd project Paldaruo gan Llywodraeth Cymru.
+		</p>
+	    </div>
+	    <div class="content">
+		<p>
+		    Rydyn yn diolch hefyd i S4C ac i Mozilla am eu cyfranniad at Paldaruo
+		</p>
+	    </div>
+	    <div class="content">
+		<p><br/>
+		   Nid oes gan y wefan hon unrhyw gysylltiad a Mozilla.<br/>		
+		</p>
+	    </div>
+	    <div class="content">
+		<p>
+		   Ewch i wefan <a href="http://voice.mozilla.org" style="color:white">Mozilla CommonVoice</a> i ddarllen mwy am 
+		</p>
+	    </div>
+	    <div class="content">
+		<p> 
+		   uchelgais Mozilla i ddatblygu adnabod lleferydd cod agored.
+		</p>
+	    </div>
             <div class="content">
-              <Logo navigate={this.props.navigate}/>
               <div class="links">
                 <p>
-                  <a onClick={this.linkNavigate} href="/privacy">Privacy</a>
-                  <a onClick={this.linkNavigate} href="/terms">Terms</a>
-                  <a target="_blank" href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
-                  <a onClick={this.linkNavigate} href="/faq">FAQ</a>
+                  <a onClick={this.linkNavigate} href="/privacy">Preifatrwydd</a>
+                  <a onClick={this.linkNavigate} href="/terms">Telerau</a>
                 </p>
-                <p>Content available under a&nbsp;<a target="_blank" href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
               </div>
             </div>
           </div>
@@ -440,10 +446,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'home')}
-      {this.renderTab('/record', 'speak')}
-      {this.renderTab('/listen', 'listen')}
-      {this.renderTab('/profile', 'profile')}
+      {this.renderTab('/', 'cartref')}
+      {this.renderTab('/record', 'siarad')}
+      {this.renderTab('/listen', 'gwrando')}
+      {this.renderTab('/profile', 'proffil')}
     </nav>;
   }
 
@@ -451,9 +457,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return (
       <div id="tally-box">
         <span class="tally-recordings">
+          Nifer o recordiadau: 
           {this.props.user.state.recordTally}
         </span>
         <span class="tally-verifications">
+          Nifer wedi'i werthuso: 
           {this.props.user.state.validateTally}
         </span>
       </div>

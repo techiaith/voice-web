@@ -183,6 +183,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         this.setState({
           uploading: false
         });
+  	//@todo - cyfieithu
         confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
           if (!keep) {
             this.reset();
@@ -225,6 +226,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       uploadProgress: 0
     });
     this.newSentenceSet();
+  }
+
+  private hasProfile(): boolean {
+    if (this.props.user.state.age &&
+	this.props.user.state.accent &&
+	this.props.user.state.childhood &&
+        this.props.user.state.homeregion &&
+        this.props.user.state.frequency &&
+        this.props.user.state.context &&
+        this.props.user.state.regionalaccent 
+        ){
+        return true;
+    }
+    return false;
   }
 
   onRecordClick(evt?: any) {
@@ -287,6 +302,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   render() {
     // Make sure we can get the microphone before displaying anything.
+    // @todo : cyfieithu
     if (this.isUnsupportedPlatform) {
       return <div className={'unsupported ' + this.props.active}>
         <h2>
@@ -339,6 +355,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       progress += (100 / SET_COUNT) * 1;
     }
 
+    if (!this.hasProfile()){
+        return <div id="record-container" className={className}>
+          <h2>
+                Mae angen rhoi manylion er mwyn dechrau recordio
+          </h2>
+          <a href="/profile">Rhoi manylion proffil</a>
+        </div>;
+    }
+
     return <div id="record-container" className={className}>
       <div id="voice-record">
         <p id="recordings-count">
@@ -353,15 +378,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <div id="record-button" onTouchStart={this.onRecordClick}
                                 onClick={this.onRecordClick}></div>
         <p id="record-help">
-          Please tap to record, then read the above sentence aloud.
+          Cliciwch i gychwyn recordio ac yna darllenwch y destun i'r cyfrifiadur.
         </p>
       </div>
       <div id="voice-submit">
-        <p id="thank-you"><span>Thank you!</span></p>
-        <p id="want-to-review"><span>Want to review your recording?</span></p>
+        <p id="thank-you"><span>Diolch yn fawr!</span></p>
+        <p id="want-to-review"><span>Hoffwch chi werthuso eich recordiadau?</span></p>
         <p id="box-headers">
-          <span>Play/Stop</span>
-          <span>Re-record</span>
+          <span>Chwarae/Stop</span>
+          <span>Ail-recordio</span>
         </p>
         {listens}
         <ProgressButton percent={progress} disabled={this.state.uploading}

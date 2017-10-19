@@ -15,6 +15,13 @@ const ACTION_GIVE_EMAIL = 'give-email';
 const ACTION_GIVE_ACCENT = 'give-accent';
 const ACTION_GIVE_AGE = 'give-age';
 const ACTION_GIVE_GENDER = 'give-gender';
+const ACTION_GIVE_CHILDHOOD = 'give-childhood';
+const ACTION_GIVE_HOMEREGION = 'give-homeregion';
+const ACTION_GIVE_SCHOOL = 'give-school';
+const ACTION_GIVE_FREQUENCY = 'give-frequency';
+const ACTION_GIVE_CONTEXT = 'give-context';
+const ACTION_GIVE_REGIONALACCENT = 'give-regionalaccent';
+
 
 /**
  * Event tracking.
@@ -70,6 +77,31 @@ export default class Tracker {
   trackGiveGender() {
     this.track(CATEGORY_PROFILE, ACTION_GIVE_GENDER);
   }
+
+  trackGiveChildhood() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_CHILDHOOD);
+  }
+
+  trackGiveHomeRegion() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_HOMEREGION);
+  }
+
+  trackGiveSchool() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_SCHOOL);
+  }
+
+  trackGiveFrequency() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_FREQUENCY);
+  }
+
+  trackGiveContext() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_CONTEXT);
+  }
+
+  trackGiveRegionalAccent() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_REGIONALACCENT);
+  }
+
 
   trackVoteYes() {
     this.track(CATEGORY_LISTEN, ACTION_VOTE_YES);
