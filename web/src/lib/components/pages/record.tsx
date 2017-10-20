@@ -390,7 +390,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         </p>
         {listens}
         <ProgressButton percent={progress} disabled={this.state.uploading}
-                        onClick={this.onSubmit} text="Submit" />
+                        onClick={this.onSubmit} text="Anfon" />
       </div>
     </div>;
   }
