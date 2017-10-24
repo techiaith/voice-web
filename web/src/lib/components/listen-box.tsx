@@ -151,7 +151,7 @@ export default class ListenBox extends Component<Props, State> {
         <a onClick={this.voteYes}>
           <Icon type="check"/>Ie!</a>
         <a onClick={this.voteNo}>
-          <Icon type="x"/>Nagi.</a>
+          <Icon type="x"/>Na.</a>
       </div>
       <audio className="audio-box"
         src={this.props.src}

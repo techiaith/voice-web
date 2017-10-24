@@ -390,12 +390,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
 	    </div>
 	    <div class="content">
 		<p>
-		    Rydyn yn diolch hefyd i S4C ac i Mozilla am eu cyfranniad at Paldaruo
+		    Rydyn ni'n diolch hefyd i S4C a Mozilla am eu cyfranniad at Paldaruo
 		</p>
 	    </div>
 	    <div class="content">
 		<p><br/>
-		   Nid oes gan y wefan hon unrhyw gysylltiad a Mozilla.<br/>		
+		   Nid oes gan y wefan hon unrhyw gysylltiad &acirc; Mozilla.<br/>		
 		</p>
 	    </div>
 	    <div class="content">
@@ -462,7 +462,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
           {this.props.user.state.recordTally}
         </span>
         <span class="tally-verifications">
-          Nifer wedi'i werthuso: 
+          Nifer wedi'u gwerthuso: 
           {this.props.user.state.validateTally}
         </span>
       </div>

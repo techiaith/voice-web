@@ -358,9 +358,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (!this.hasProfile()){
         return <div id="record-container" className={className}>
           <h2>
-                Mae angen i chi rhoi eich manylion demograffig yn gyntaf cyn dechrau recordio
+                Mae angen i chi rhoi eich manylion proffil yn gyntaf cyn dechrau recordio
           </h2>
-          <a href="/profile">Cliciwch yma i roi eich manylion demograffig</a>
+          <h3>Pam fod angen manylion eich proffil arnom?</h3>
+	  <p>Mae'n gymorth i ni weithiau fedru dosbarthu lleisiau tafodieithoedd gwahanol gyda'i gilydd, 
+             neu drin lleisiau hen/ifanc neu ddynion/merched ar wah&acirc;n. Gall y darnau hyn o wybodaeth
+             fod yn help hefyd i wneud rhagor o ymchwil ar ynganu a ffoneteg y Gymraeg, felly rydyn i wedi
+	     ceisio meddwl am y cwestiynau mwyaf perthnasol i ofyn i chi!</p>
+          <a href="/profile">Cliciwch yma i roi manylion eich proffil</a>
         </div>;
     }
 

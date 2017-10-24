@@ -1128,6 +1128,15 @@ body:not(.ios) .recording #background-container {
   }
 }
 
+@media (min-width: 600px) {
+  #listen-layout {
+    background-position: 2.5rem 0;
+    background-size: 0.2rem;
+    background-repeat: repeat-y;
+    top: -4.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   #home-layout div.left-column {
     padding-left: 0;
@@ -1142,6 +1151,12 @@ body:not(.ios) .recording #background-container {
   position: relative;
   display: flex;
   align-items: flex-end;
+  padding-bottom: var(--donate-height);
+}
+
+#listen-layout {
+  --donate-height: 5rem;
+  position: relative;
   padding-bottom: var(--donate-height);
 }
 
@@ -1219,7 +1234,6 @@ body:not(.ios) .recording #background-container {
 
 #listen-container {
   padding: 0.7rem;
-  text-align: center;
   padding-left:12rem;
 }
 
