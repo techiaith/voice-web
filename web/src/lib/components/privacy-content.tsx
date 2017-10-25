@@ -16,7 +16,7 @@ export default class PrivacyContent extends Component<Props, State> {
 	    chi ganiatáu iddo gael mynediad at feicroffon eich cyfrifiadur ac 
  	    i chi glicio ar y botymau priodol i gychwyn recordio. Bydd gwefan
 	    Paldaruo bob tro yn rhoi gwybod pryd mae’n recordio.</li>
-	<li><b>Data Demograffig.</b>Mae gwefan Paldaruo yn gofyn i chi fewnbynnu 
+	<li><b>Data Proffil.</b>Mae gwefan Paldaruo yn gofyn i chi fewnbynnu 
 	    manylion am eich cefndir daearyddol, acen, oed a rhyw er mwyn eu 
             cysylltu â recordiadau. 
 	    <br/>Mae eich hawliau o ran cyfrannu yn ddienw a 
