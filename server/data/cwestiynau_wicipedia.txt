@@ -1,0 +1,1240 @@
+Beth yw Cymraeg?
+Beth ydy Cymraeg?
+Be 'di Cymraeg?
+Beth yw Saesneg?
+Beth ydy Saesneg?
+Be 'di Saesneg?
+Beth oedd Yr Ail Ryfel Byd?
+Pwy oedd T. Llew Jones?
+Beth yw Wikipedia?
+Beth ydy Wikipedia?
+Be 'di Wikipedia?
+Pwy oedd Hedd Wyn?
+Pwy oedd Sioned James?
+Beth yw Rhyngrwyd?
+Beth ydy Rhyngrwyd?
+Be 'di Rhyngrwyd?
+Beth yw Lladin?
+Beth ydy Lladin?
+Be 'di Lladin?
+Beth yw Wicipedia Cymraeg?
+Beth ydy Wicipedia Cymraeg?
+Be 'di Wicipedia Cymraeg?
+Beth yw cynnwys rhydd?
+Beth ydy cynnwys rhydd?
+Be 'di cynnwys rhydd?
+Beth yw Gwyddoniadur?
+Beth ydy Gwyddoniadur?
+Be 'di Gwyddoniadur?
+Beth yw blog?
+Beth ydy blog?
+Be 'di blog?
+Pwy yw Sarra Elgan?
+Pwy ydy Sarra Elgan?
+Pwy 'di Sarra Elgan?
+Beth yw wici?
+Beth ydy wici?
+Be 'di wici?
+Beth yw map?
+Beth ydy map?
+Be 'di map?
+Beth yw Comin Wikimedia?
+Beth ydy Comin Wikimedia?
+Be 'di Comin Wikimedia?
+Beth yw gwefan?
+Beth ydy gwefan?
+Be 'di gwefan?
+Beth oedd Y Rhyfel Byd Cyntaf?
+Beth yw Wiciadur?
+Beth ydy Wiciadur?
+Be 'di Wiciadur?
+Beth yw Ffrangeg?
+Beth ydy Ffrangeg?
+Be 'di Ffrangeg?
+Beth oedd trychineb Aberfan?
+Beth yw methanol?
+Beth ydy methanol?
+Be 'di methanol?
+Beth yw aur?
+Beth ydy aur?
+Be 'di aur?
+Beth yw Gwe fyd-eang?
+Beth ydy Gwe fyd-eang?
+Be 'di Gwe fyd-eang?
+Beth yw Pêl-droed?
+Beth ydy Pêl-droed?
+Be 'di Pêl-droed?
+Beth yw Wicipedia?
+Beth ydy Wicipedia?
+Be 'di Wicipedia?
+Pwy yw Huw Chiswell?
+Pwy ydy Huw Chiswell?
+Pwy 'di Huw Chiswell?
+Beth yw parth cyhoeddus?
+Beth ydy parth cyhoeddus?
+Be 'di parth cyhoeddus?
+Beth yw Almaeneg?
+Beth ydy Almaeneg?
+Be 'di Almaeneg?
+Pwy yw Dewi 'Pws' Morris?
+Pwy ydy Dewi 'Pws' Morris?
+Pwy 'di Dewi 'Pws' Morris?
+Beth yw sefydliad Wikimedia?
+Beth ydy sefydliad Wikimedia?
+Be 'di sefydliad Wikimedia?
+Beth yw Llyfrgell y Diet Cenedlaethol?
+Beth ydy Llyfrgell y Diet Cenedlaethol?
+Be 'di Llyfrgell y Diet Cenedlaethol?
+Beth yw cyfrifiadur?
+Beth ydy cyfrifiadur?
+Be 'di cyfrifiadur?
+Beth yw cylchfa amser?
+Beth ydy cylchfa amser?
+Be 'di cylchfa amser?
+Beth yw technoleg?
+Beth ydy technoleg?
+Be 'di technoleg?
+Beth yw WordPress?
+Beth ydy WordPress?
+Be 'di WordPress?
+Pwy oedd Owain Glyn Dŵr?
+Beth yw iaith?
+Beth ydy iaith?
+Be 'di iaith?
+Beth yw meddalwedd?
+Beth ydy meddalwedd?
+Be 'di meddalwedd?
+Beth yw Y Cenhedloedd Unedig?
+Beth ydy Y Cenhedloedd Unedig?
+Be 'di Y Cenhedloedd Unedig?
+Beth yw gwyddoniaeth?
+Beth ydy gwyddoniaeth?
+Be 'di gwyddoniaeth?
+Beth yw busnes?
+Beth ydy busnes?
+Be 'di busnes?
+Beth yw Hutu?
+Beth ydy Hutu?
+Be 'di Hutu?
+Beth yw dŵr?
+Beth ydy dŵr?
+Be 'di dŵr?
+Beth yw Cristnogaeth?
+Beth ydy Cristnogaeth?
+Be 'di Cristnogaeth?
+Beth oedd Yr Oesoedd Canol?
+Beth yw Islam?
+Beth ydy Islam?
+Be 'di Islam?
+Beth yw Sbaeneg?
+Beth ydy Sbaeneg?
+Be 'di Sbaeneg?
+Beth yw E-bost?
+Beth ydy E-bost?
+Be 'di E-bost?
+Beth yw Economeg?
+Beth ydy Economeg?
+Be 'di Economeg?
+Beth yw Seicoleg?
+Beth ydy Seicoleg?
+Be 'di Seicoleg?
+Beth yw Gweddi'r Arglwydd?
+Beth ydy Gweddi'r Arglwydd?
+Be 'di Gweddi'r Arglwydd?
+Beth yw Japaneg?
+Beth ydy Japaneg?
+Be 'di Japaneg?
+Beth oedd Y Celtiaid?
+Beth oedd Yr Ymerodraeth Rufeinig?
+Beth yw Mathemateg?
+Beth ydy Mathemateg?
+Be 'di Mathemateg?
+Beth yw marchnata?
+Beth ydy marchnata?
+Be 'di marchnata?
+Beth yw Iechyd?
+Beth ydy Iechyd?
+Be 'di Iechyd?
+Beth yw amaeth?
+Beth ydy amaeth?
+Be 'di amaeth?
+Beth yw Bwdhaeth?
+Beth ydy Bwdhaeth?
+Be 'di Bwdhaeth?
+Beth yw meddygaeth?
+Beth ydy meddygaeth?
+Be 'di meddygaeth?
+Pwy oedd Llywelyn ap Gruffudd?
+Beth yw anifail?
+Beth ydy anifail?
+Be 'di anifail?
+Beth yw hawlfraint?
+Beth ydy hawlfraint?
+Be 'di hawlfraint?
+Beth yw crefydd?
+Beth ydy crefydd?
+Be 'di crefydd?
+Beth yw trydan?
+Beth ydy trydan?
+Be 'di trydan?
+Beth yw Arabeg?
+Beth ydy Arabeg?
+Be 'di Arabeg?
+Beth yw system weithredu?
+Beth ydy system weithredu?
+Be 'di system weithredu?
+Beth yw Ffiseg?
+Beth ydy Ffiseg?
+Be 'di Ffiseg?
+Beth yw Arianneg?
+Beth ydy Arianneg?
+Be 'di Arianneg?
+Beth yw Diod?
+Beth ydy Diod?
+Be 'di Diod?
+Beth yw Cyfrifiadureg?
+Beth ydy Cyfrifiadureg?
+Be 'di Cyfrifiadureg?
+Beth yw Iddewiaeth?
+Beth ydy Iddewiaeth?
+Be 'di Iddewiaeth?
+Beth yw comed?
+Beth ydy comed?
+Be 'di comed?
+Beth yw Athroniaeth?
+Beth ydy Athroniaeth?
+Be 'di Athroniaeth?
+Beth yw Mam?
+Beth ydy Mam?
+Be 'di Mam?
+Beth yw Haul?
+Beth ydy Haul?
+Be 'di Haul?
+Beth yw Yr Eglwys Gatholig?
+Beth ydy Yr Eglwys Gatholig?
+Be 'di Yr Eglwys Gatholig?
+Beth yw chwaraeon?
+Beth ydy chwaraeon?
+Be 'di chwaraeon?
+Beth yw hunlun?
+Beth ydy hunlun?
+Be 'di hunlun?
+Beth yw Ficer?
+Beth ydy Ficer?
+Be 'di Ficer?
+Beth yw car?
+Beth ydy car?
+Be 'di car?
+Beth yw aderyn mudol?
+Beth ydy aderyn mudol?
+Be 'di aderyn mudol?
+Beth yw ffôn clyfar?
+Beth ydy ffôn clyfar?
+Be 'di ffôn clyfar?
+Beth yw Paun?
+Beth ydy Paun?
+Be 'di Paun?
+Beth yw ffôn symudol?
+Beth ydy ffôn symudol?
+Be 'di ffôn symudol?
+Beth yw hysbysebu?
+Beth ydy hysbysebu?
+Be 'di hysbysebu?
+Beth yw Eidaleg?
+Beth ydy Eidaleg?
+Be 'di Eidaleg?
+Beth yw Ffilm?
+Beth ydy Ffilm?
+Be 'di Ffilm?
+Beth yw Eglwys Groeg?
+Beth ydy Eglwys Groeg?
+Be 'di Eglwys Groeg?
+Beth oedd Y Chwyldro Diwydiannol?
+Beth yw corff dynol?
+Beth ydy corff dynol?
+Be 'di corff dynol?
+Beth yw diwylliant?
+Beth ydy diwylliant?
+Be 'di diwylliant?
+Beth yw addysg?
+Beth ydy addysg?
+Be 'di addysg?
+Beth yw cipio plentyn?
+Beth ydy cipio plentyn?
+Be 'di cipio plentyn?
+Beth yw aderyn?
+Beth ydy aderyn?
+Be 'di aderyn?
+Beth yw Cyfraith Hywel Dda?
+Beth ydy Cyfraith Hywel Dda?
+Be 'di Cyfraith Hywel Dda?
+Beth yw bywyd crwydrol?
+Beth ydy bywyd crwydrol?
+Be 'di bywyd crwydrol?
+Beth yw blaidd?
+Beth ydy blaidd?
+Be 'di blaidd?
+Beth yw Llyfr Llandaf?
+Beth ydy Llyfr Llandaf?
+Be 'di Llyfr Llandaf?
+Beth yw cerddoriaeth?
+Beth ydy cerddoriaeth?
+Be 'di cerddoriaeth?
+Beth yw cordwellt y paith?
+Beth ydy cordwellt y paith?
+Be 'di cordwellt y paith?
+Beth yw Iddewon?
+Beth ydy Iddewon?
+Be 'di Iddewon?
+Beth yw dwysedd poblogaeth?
+Beth ydy dwysedd poblogaeth?
+Be 'di dwysedd poblogaeth?
+Beth yw deledu?
+Beth ydy deledu?
+Be 'di deledu?
+Beth yw planhigyn?
+Beth ydy planhigyn?
+Be 'di planhigyn?
+Beth yw dinas?
+Beth ydy dinas?
+Be 'di dinas?
+Beth yw Gwyddeleg?
+Beth ydy Gwyddeleg?
+Be 'di Gwyddeleg?
+Beth yw treth?
+Beth ydy treth?
+Be 'di treth?
+Beth yw llosgfynydd?
+Beth ydy llosgfynydd?
+Be 'di llosgfynydd?
+Beth oedd Brythoniaid?
+Beth yw bod dynol?
+Beth ydy bod dynol?
+Be 'di bod dynol?
+Beth yw cyfraith?
+Beth ydy cyfraith?
+Be 'di cyfraith?
+Beth yw ci?
+Beth ydy ci?
+Be 'di ci?
+Beth yw peirianneg?
+Beth ydy peirianneg?
+Be 'di peirianneg?
+Beth yw Ewro?
+Beth ydy Ewro?
+Be 'di Ewro?
+Beth yw rhywogaeth?
+Beth ydy rhywogaeth?
+Be 'di rhywogaeth?
+Beth yw Gemau Olympaidd Modern?
+Beth ydy Gemau Olympaidd Modern?
+Be 'di Gemau Olympaidd Modern?
+Beth yw Hindŵaeth?
+Beth ydy Hindŵaeth?
+Be 'di Hindŵaeth?
+Beth yw Cadair yr Eisteddfod Genedlaethol?
+Beth ydy Cadair yr Eisteddfod Genedlaethol?
+Be 'di Cadair yr Eisteddfod Genedlaethol?
+Beth yw cemeg?
+Beth ydy cemeg?
+Be 'di cemeg?
+Pwy yw Bethan Rhys Roberts?
+Pwy ydy Bethan Rhys Roberts?
+Pwy 'di Bethan Rhys Roberts?
+Pwy yw Siôn Corn?
+Pwy ydy Siôn Corn?
+Pwy 'di Siôn Corn?
+Beth yw planed?
+Beth ydy planed?
+Be 'di planed?
+Beth yw Hollt Gwener?
+Beth ydy Hollt Gwener?
+Be 'di Hollt Gwener?
+Beth yw Bywydeg?
+Beth ydy Bywydeg?
+Be 'di Bywydeg?
+Beth yw Rwseg?
+Beth ydy Rwseg?
+Be 'di Rwseg?
+Pwy oedd Edward H. Dafis?
+Beth yw prifddinas?
+Beth ydy prifddinas?
+Be 'di prifddinas?
+Beth yw arian cyfred?
+Beth ydy arian cyfred?
+Be 'di arian cyfred?
+Beth yw Eisteddfod Genedlaethol Cymru?
+Beth ydy Eisteddfod Genedlaethol Cymru?
+Be 'di Eisteddfod Genedlaethol Cymru?
+Beth yw banc?
+Beth ydy banc?
+Be 'di banc?
+Beth yw celfyddyd?
+Beth ydy celfyddyd?
+Be 'di celfyddyd?
+Beth yw Beibl?
+Beth ydy Beibl?
+Be 'di Beibl?
+Beth yw calon?
+Beth ydy calon?
+Be 'di calon?
+Beth yw porwr gwe?
+Beth ydy porwr gwe?
+Be 'di porwr gwe?
+Beth yw llyfr?
+Beth ydy llyfr?
+Be 'di llyfr?
+Beth yw cronfa ddata?
+Beth ydy cronfa ddata?
+Be 'di cronfa ddata?
+Beth yw economi?
+Beth ydy economi?
+Be 'di economi?
+Beth yw gwrach?
+Beth ydy gwrach?
+Be 'di gwrach?
+Beth yw Gwladwriaeth?
+Beth ydy Gwladwriaeth?
+Be 'di Gwladwriaeth?
+Pwy oedd Saunders Lewis?
+Beth yw ymennydd?
+Beth ydy ymennydd?
+Be 'di ymennydd?
+Beth yw Wicidestun?
+Beth ydy Wicidestun?
+Be 'di Wicidestun?
+Beth yw Cyngres yr Unol Daleithiau?
+Beth ydy Cyngres yr Unol Daleithiau?
+Be 'di Cyngres yr Unol Daleithiau?
+Beth yw De-ddwyrain Asia?
+Beth ydy De-ddwyrain Asia?
+Be 'di De-ddwyrain Asia?
+Beth yw Cyfundrefn Iechyd y Byd?
+Beth ydy Cyfundrefn Iechyd y Byd?
+Be 'di Cyfundrefn Iechyd y Byd?
+Beth yw Dadeni Dysg?
+Beth ydy Dadeni Dysg?
+Be 'di Dadeni Dysg?
+Beth yw Samsara?
+Beth ydy Samsara?
+Be 'di Samsara?
+Beth oedd Helyntion Beca?
+Beth yw hanes?
+Beth ydy hanes?
+Be 'di hanes?
+Beth yw cynhesu byd eang?
+Beth ydy cynhesu byd eang?
+Be 'di cynhesu byd eang?
+Beth yw Iesu?
+Beth ydy Iesu?
+Be 'di Iesu?
+Beth yw cymdeithas?
+Beth ydy cymdeithas?
+Be 'di cymdeithas?
+Beth yw Rhyfelgyrch Gwŷr Harlech?
+Beth ydy Rhyfelgyrch Gwŷr Harlech?
+Be 'di Rhyfelgyrch Gwŷr Harlech?
+Beth yw Iseldireg?
+Beth ydy Iseldireg?
+Be 'di Iseldireg?
+Beth yw Hentai?
+Beth ydy Hentai?
+Be 'di Hentai?
+Pwy oedd Dewi Sant?
+Beth yw Prifysgol?
+Beth ydy Prifysgol?
+Be 'di Prifysgol?
+Beth yw Baner yr Unol Daleithiau?
+Beth ydy Baner yr Unol Daleithiau?
+Be 'di Baner yr Unol Daleithiau?
+Beth yw cyfathrebu?
+Beth ydy cyfathrebu?
+Be 'di cyfathrebu?
+Beth yw diwydiant?
+Beth ydy diwydiant?
+Be 'di diwydiant?
+Beth oedd Rhyfel Cartref America?
+Pwy yw Tudur Owen?
+Pwy ydy Tudur Owen?
+Pwy 'di Tudur Owen?
+Pwy yw Caryl Parry Jones?
+Pwy ydy Caryl Parry Jones?
+Pwy 'di Caryl Parry Jones?
+Beth yw Lerpwl?
+Beth ydy Lerpwl?
+Be 'di Lerpwl?
+Beth yw calendr Gregori?
+Beth ydy calendr Gregori?
+Be 'di calendr Gregori?
+Beth yw Mamal?
+Beth ydy Mamal?
+Be 'di Mamal?
+Beth yw Portiwgaleg?
+Beth ydy Portiwgaleg?
+Be 'di Portiwgaleg?
+Beth yw Gwleidyddiaeth?
+Beth ydy Gwleidyddiaeth?
+Be 'di Gwleidyddiaeth?
+Beth yw Electroneg?
+Beth ydy Electroneg?
+Be 'di Electroneg?
+Beth yw Pensaernïaeth?
+Beth ydy Pensaernïaeth?
+Be 'di Pensaernïaeth?
+Beth yw Seryddiaeth?
+Beth ydy Seryddiaeth?
+Be 'di Seryddiaeth?
+Beth yw Tsieineeg?
+Beth ydy Tsieineeg?
+Be 'di Tsieineeg?
+Beth yw cath?
+Beth ydy cath?
+Be 'di cath?
+Beth yw podlediad?
+Beth ydy podlediad?
+Be 'di podlediad?
+Beth yw Daearyddiaeth?
+Beth ydy Daearyddiaeth?
+Be 'di Daearyddiaeth?
+Beth yw Y Gwyll?
+Beth ydy Y Gwyll?
+Be 'di Y Gwyll?
+Beth yw ocsigen?
+Beth ydy ocsigen?
+Be 'di ocsigen?
+Pwy yw Ceri Wyn Jones?
+Pwy ydy Ceri Wyn Jones?
+Pwy 'di Ceri Wyn Jones?
+Beth yw Llywodraeth?
+Beth ydy Llywodraeth?
+Be 'di Llywodraeth?
+Beth yw ceffyl?
+Beth ydy ceffyl?
+Be 'di ceffyl?
+Beth yw Nadolig?
+Beth ydy Nadolig?
+Be 'di Nadolig?
+Beth yw Metel?
+Beth ydy Metel?
+Be 'di Metel?
+Beth yw bwyd?
+Beth ydy bwyd?
+Be 'di bwyd?
+Beth yw gwyddbwyll?
+Beth ydy gwyddbwyll?
+Be 'di gwyddbwyll?
+Beth yw Gwaith y meddyg?
+Beth ydy Gwaith y meddyg?
+Be 'di Gwaith y meddyg?
+Beth yw papur newydd?
+Beth ydy papur newydd?
+Be 'di papur newydd?
+Beth yw Ccopr?
+Beth ydy Ccopr?
+Be 'di Ccopr?
+Beth yw Clefyd?
+Beth ydy Clefyd?
+Be 'di Clefyd?
+Pwy yw Tom Jones?
+Pwy ydy Tom Jones?
+Pwy 'di Tom Jones?
+Beth yw Llenyddiaeth?
+Beth ydy Llenyddiaeth?
+Be 'di Llenyddiaeth?
+Beth yw dosbarthiad gwyddonol?
+Beth ydy dosbarthiad gwyddonol?
+Be 'di dosbarthiad gwyddonol?
+Beth yw Siop?
+Beth ydy Siop?
+Be 'di Siop?
+Beth yw Tutsi?
+Beth ydy Tutsi?
+Be 'di Tutsi?
+Beth yw technoleg gwybodaeth?
+Beth ydy technoleg gwybodaeth?
+Be 'di technoleg gwybodaeth?
+Beth yw Dydd Gŵyl Dewi?
+Beth ydy Dydd Gŵyl Dewi?
+Be 'di Dydd Gŵyl Dewi?
+Beth yw amser?
+Beth ydy amser?
+Be 'di amser?
+Beth yw Dyneiddiaeth?
+Beth ydy Dyneiddiaeth?
+Be 'di Dyneiddiaeth?
+Beth yw Cymdeithaseg?
+Beth ydy Cymdeithaseg?
+Be 'di Cymdeithaseg?
+Beth yw Gwyddor Seinegol Ryngwladol?
+Beth ydy Gwyddor Seinegol Ryngwladol?
+Be 'di Gwyddor Seinegol Ryngwladol?
+Beth yw gwlad?
+Beth ydy gwlad?
+Be 'di gwlad?
+Pwy oedd J. O. Roberts?
+Beth yw Protein?
+Beth ydy Protein?
+Be 'di Protein?
+Beth yw dur?
+Beth ydy dur?
+Be 'di dur?
+Beth yw Ffotograffiaeth?
+Beth ydy Ffotograffiaeth?
+Be 'di Ffotograffiaeth?
+Pwy oedd Y Brenin Arthur?
+Beth yw clefyd y siwgr?
+Beth ydy clefyd y siwgr?
+Be 'di clefyd y siwgr?
+Beth yw Alwminiwm?
+Beth ydy Alwminiwm?
+Be 'di Alwminiwm?
+Beth yw daeargryn?
+Beth ydy daeargryn?
+Be 'di daeargryn?
+Pwy oedd Llywelyn Fawr?
+Beth yw arwynebedd?
+Beth ydy arwynebedd?
+Be 'di arwynebedd?
+Beth yw Candelas?
+Beth ydy Candelas?
+Be 'di Candelas?
+Pwy yw Arlywydd yr Unol Daleithiau?
+Pwy ydy Arlywydd yr Unol Daleithiau?
+Pwy 'di Arlywydd yr Unol Daleithiau?
+Beth yw siocled?
+Beth ydy siocled?
+Be 'di siocled?
+Pwy oedd Gerallt Lloyd Owen?
+Beth yw esblygiad?
+Beth ydy esblygiad?
+Be 'di esblygiad?
+Beth yw cancr?
+Beth ydy cancr?
+Be 'di cancr?
+Pwy yw Tudur Dylan Jones?
+Pwy ydy Tudur Dylan Jones?
+Pwy 'di Tudur Dylan Jones?
+Beth yw egni adnewyddadwy?
+Beth ydy egni adnewyddadwy?
+Be 'di egni adnewyddadwy?
+Beth yw safle Treftadaeth y Byd?
+Beth ydy safle Treftadaeth y Byd?
+Be 'di safle Treftadaeth y Byd?
+Beth yw Stafa?
+Beth ydy Stafa?
+Be 'di Stafa?
+Beth yw newid hinsawdd?
+Beth ydy newid hinsawdd?
+Be 'di newid hinsawdd?
+Beth yw Anime?
+Beth ydy Anime?
+Be 'di Anime?
+Beth yw twristiaeth?
+Beth ydy twristiaeth?
+Be 'di twristiaeth?
+Pwy yw Dyfan Rees?
+Pwy ydy Dyfan Rees?
+Pwy 'di Dyfan Rees?
+Beth yw label recordio?
+Beth ydy label recordio?
+Be 'di label recordio?
+Pwy yw Manon Steffan Ros?
+Pwy ydy Manon Steffan Ros?
+Pwy 'di Manon Steffan Ros?
+Beth yw ensym?
+Beth ydy ensym?
+Be 'di ensym?
+Beth yw Pren?
+Beth ydy Pren?
+Be 'di Pren?
+Pwy oedd Y Dywysoges Gwenllian?
+Beth yw actor?
+Beth ydy actor?
+Be 'di actor?
+Beth yw Pobol y Cwm?
+Beth ydy Pobol y Cwm?
+Be 'di Pobol y Cwm?
+Beth yw poblogaeth?
+Beth ydy poblogaeth?
+Be 'di poblogaeth?
+Beth yw petroliwm?
+Beth ydy petroliwm?
+Be 'di petroliwm?
+Beth yw Cerfluniaeth?
+Beth ydy Cerfluniaeth?
+Be 'di Cerfluniaeth?
+Beth yw Pêl-fasged?
+Beth ydy Pêl-fasged?
+Be 'di Pêl-fasged?
+Beth yw iaith swyddogol?
+Beth ydy iaith swyddogol?
+Be 'di iaith swyddogol?
+Beth yw cludiant?
+Beth ydy cludiant?
+Be 'di cludiant?
+Beth yw haearn?
+Beth ydy haearn?
+Be 'di haearn?
+Beth yw Draig?
+Beth ydy Draig?
+Be 'di Draig?
+Pwy oedd Bartholomew Roberts?
+Beth yw Deintyddiaeth?
+Beth ydy Deintyddiaeth?
+Be 'di Deintyddiaeth?
+Beth yw Gwobrau'r Academi?
+Beth ydy Gwobrau'r Academi?
+Be 'di Gwobrau'r Academi?
+Pwy oedd Kate Roberts?
+Pwy yw Heledd Cynwal?
+Pwy ydy Heledd Cynwal?
+Pwy 'di Heledd Cynwal?
+Beth yw hafan?
+Beth ydy hafan?
+Be 'di hafan?
+Beth yw coffi?
+Beth ydy coffi?
+Be 'di coffi?
+Beth yw dirwasgiad Mawr?
+Beth ydy dirwasgiad Mawr?
+Be 'di dirwasgiad Mawr?
+Beth yw deallusrwydd artiffisial?
+Beth ydy deallusrwydd artiffisial?
+Be 'di deallusrwydd artiffisial?
+Pwy yw Myrddin ap Dafydd?
+Pwy ydy Myrddin ap Dafydd?
+Pwy 'di Myrddin ap Dafydd?
+Pwy oedd Gwynfor Evans?
+Beth yw Dydd Llun?
+Beth ydy Dydd Llun?
+Be 'di Dydd Llun?
+Beth yw pop Cymraeg?
+Beth ydy pop Cymraeg?
+Be 'di pop Cymraeg?
+Beth yw barddoniaeth?
+Beth ydy barddoniaeth?
+Be 'di barddoniaeth?
+Beth yw gwybodaeth?
+Beth ydy gwybodaeth?
+Be 'di gwybodaeth?
+Beth yw genws?
+Beth ydy genws?
+Be 'di genws?
+Beth yw system rheoli cynnwys?
+Beth ydy system rheoli cynnwys?
+Be 'di system rheoli cynnwys?
+Pwy yw Ifan Huw Dafydd?
+Pwy ydy Ifan Huw Dafydd?
+Pwy 'di Ifan Huw Dafydd?
+Pwy yw Heather Jones?
+Pwy ydy Heather Jones?
+Pwy 'di Heather Jones?
+Beth yw carbon deuocsid?
+Beth ydy carbon deuocsid?
+Be 'di carbon deuocsid?
+Beth yw metr?
+Beth ydy metr?
+Be 'di metr?
+Beth yw Basgiaid?
+Beth ydy Basgiaid?
+Be 'di Basgiaid?
+Beth yw Plastig?
+Beth ydy Plastig?
+Be 'di Plastig?
+Beth yw Norwyeg?
+Beth ydy Norwyeg?
+Be 'di Norwyeg?
+Beth yw cyfandir?
+Beth ydy cyfandir?
+Be 'di cyfandir?
+Beth yw Protestaniaeth?
+Beth ydy Protestaniaeth?
+Be 'di Protestaniaeth?
+Pwy yw Emyr Wyn?
+Pwy ydy Emyr Wyn?
+Pwy 'di Emyr Wyn?
+Beth yw system nerfol?
+Beth ydy system nerfol?
+Be 'di system nerfol?
+Beth yw Yr wyddor Gymraeg?
+Beth ydy Yr wyddor Gymraeg?
+Be 'di Yr wyddor Gymraeg?
+Beth yw cerddoriaeth roc?
+Beth ydy cerddoriaeth roc?
+Be 'di cerddoriaeth roc?
+Beth yw paredd gallu prynu?
+Beth ydy paredd gallu prynu?
+Be 'di paredd gallu prynu?
+Beth yw C'mon Midffîld!?
+Beth ydy C'mon Midffîld!?
+Be 'di C'mon Midffîld!?
+Beth yw masnach?
+Beth ydy masnach?
+Be 'di masnach?
+Beth yw Gweriniaeth?
+Beth ydy Gweriniaeth?
+Be 'di Gweriniaeth?
+Beth yw atmosffer y Ddaear?
+Beth ydy atmosffer y Ddaear?
+Be 'di atmosffer y Ddaear?
+Beth yw Gwyddoniaeth naturiol?
+Beth ydy Gwyddoniaeth naturiol?
+Be 'di Gwyddoniaeth naturiol?
+Beth yw Malaria?
+Beth ydy Malaria?
+Be 'di Malaria?
+Beth yw Awdurdod?
+Beth ydy Awdurdod?
+Be 'di Awdurdod?
+Beth yw Mabinogi?
+Beth ydy Mabinogi?
+Be 'di Mabinogi?
+Beth yw ysgyfaint?
+Beth ydy ysgyfaint?
+Be 'di ysgyfaint?
+Beth yw goleuni?
+Beth ydy goleuni?
+Be 'di goleuni?
+Beth yw Comiwnyddiaeth?
+Beth ydy Comiwnyddiaeth?
+Be 'di Comiwnyddiaeth?
+Beth yw Llydaweg?
+Beth ydy Llydaweg?
+Be 'di Llydaweg?
+Beth yw siwgr?
+Beth ydy siwgr?
+Be 'di siwgr?
+Beth yw noethlymuniaeth?
+Beth ydy noethlymuniaeth?
+Be 'di noethlymuniaeth?
+Beth yw Llywodraeth leol yng Nghymru?
+Beth ydy Llywodraeth leol yng Nghymru?
+Be 'di Llywodraeth leol yng Nghymru?
+Pwy oedd Y Fam Teresa?
+Beth yw Hen Wlad fy Nhadau?
+Beth ydy Hen Wlad fy Nhadau?
+Be 'di Hen Wlad fy Nhadau?
+Beth yw Dydd Iau?
+Beth ydy Dydd Iau?
+Be 'di Dydd Iau?
+Beth yw pocer?
+Beth ydy pocer?
+Be 'di pocer?
+Beth yw Castell mwnt a beili?
+Beth ydy Castell mwnt a beili?
+Be 'di Castell mwnt a beili?
+Beth yw Rheolaeth?
+Beth ydy Rheolaeth?
+Be 'di Rheolaeth?
+Beth yw Priodas?
+Beth ydy Priodas?
+Be 'di Priodas?
+Beth yw beichiogrwydd?
+Beth ydy beichiogrwydd?
+Be 'di beichiogrwydd?
+Beth yw Meddyginiaeth?
+Beth ydy Meddyginiaeth?
+Be 'di Meddyginiaeth?
+Beth yw afu?
+Beth ydy afu?
+Be 'di afu?
+Beth yw ystadegaeth?
+Beth ydy ystadegaeth?
+Be 'di ystadegaeth?
+Beth yw Byw Celwydd?
+Beth ydy Byw Celwydd?
+Be 'di Byw Celwydd?
+Beth yw Saeson?
+Beth ydy Saeson?
+Be 'di Saeson?
+Pwy yw Bryn Fôn?
+Pwy ydy Bryn Fôn?
+Pwy 'di Bryn Fôn?
+Beth yw Coala?
+Beth ydy Coala?
+Be 'di Coala?
+Beth yw Ieithyddiaeth?
+Beth ydy Ieithyddiaeth?
+Be 'di Ieithyddiaeth?
+Beth yw Iaith rhaglennu?
+Beth ydy Iaith rhaglennu?
+Be 'di Iaith rhaglennu?
+Beth yw coluddyn bach?
+Beth ydy coluddyn bach?
+Be 'di coluddyn bach?
+Beth yw calendr Iwliaidd?
+Beth ydy calendr Iwliaidd?
+Be 'di calendr Iwliaidd?
+Pwy yw Richard Elfyn?
+Pwy ydy Richard Elfyn?
+Pwy 'di Richard Elfyn?
+Beth yw cylchgrawn?
+Beth ydy cylchgrawn?
+Be 'di cylchgrawn?
+Beth yw Y Fari Lwyd?
+Beth ydy Y Fari Lwyd?
+Be 'di Y Fari Lwyd?
+Beth yw gordewdra?
+Beth ydy gordewdra?
+Be 'di gordewdra?
+Pwy oedd Gareth F. Williams?
+Pwy yw Ffion Dafis?
+Pwy ydy Ffion Dafis?
+Pwy 'di Ffion Dafis?
+Beth yw trosiad?
+Beth ydy trosiad?
+Be 'di trosiad?
+Beth yw Y plygain?
+Beth ydy Y plygain?
+Be 'di Y plygain?
+Beth yw tTeulu?
+Beth ydy tTeulu?
+Be 'di tTeulu?
+Beth yw disgyrchiant?
+Beth ydy disgyrchiant?
+Be 'di disgyrchiant?
+Pwy oedd Ieuan Roberts?
+Pwy yw Gaynor Morgan Rees?
+Pwy ydy Gaynor Morgan Rees?
+Pwy 'di Gaynor Morgan Rees?
+Beth yw ffarmacoleg?
+Beth ydy ffarmacoleg?
+Be 'di ffarmacoleg?
+Beth yw ffwng?
+Beth ydy ffwng?
+Be 'di ffwng?
+Beth yw blwyddyn?
+Beth ydy blwyddyn?
+Be 'di blwyddyn?
+Beth yw breinlen?
+Beth ydy breinlen?
+Be 'di breinlen?
+Beth yw gwaed?
+Beth ydy gwaed?
+Be 'di gwaed?
+Beth yw Anthropoleg?
+Beth ydy Anthropoleg?
+Be 'di Anthropoleg?
+Beth yw Pla Du?
+Beth ydy Pla Du?
+Be 'di Pla Du?
+Beth yw Dydd Mawrth?
+Beth ydy Dydd Mawrth?
+Be 'di Dydd Mawrth?
+Pwy yw Bob Dylan?
+Pwy ydy Bob Dylan?
+Pwy 'di Bob Dylan?
+Beth yw Gaeleg yr Alban?
+Beth ydy Gaeleg yr Alban?
+Be 'di Gaeleg yr Alban?
+Beth yw Archaeoleg?
+Beth ydy Archaeoleg?
+Be 'di Archaeoleg?
+Beth yw anthem genedlaethol?
+Beth ydy anthem genedlaethol?
+Be 'di anthem genedlaethol?
+Pwy yw John Pierce Jones?
+Pwy ydy John Pierce Jones?
+Pwy 'di John Pierce Jones?
+Beth yw bacteria?
+Beth ydy bacteria?
+Be 'di bacteria?
+Beth yw Plaid Cymru?
+Beth ydy Plaid Cymru?
+Be 'di Plaid Cymru?
+Beth yw Y cyfryngau torfol?
+Beth ydy Y cyfryngau torfol?
+Be 'di Y cyfryngau torfol?
+Beth yw Nos Ystwyll?
+Beth ydy Nos Ystwyll?
+Be 'di Nos Ystwyll?
+Beth yw Tawel Nos?
+Beth ydy Tawel Nos?
+Be 'di Tawel Nos?
+Beth yw gardd?
+Beth ydy gardd?
+Be 'di gardd?
+Beth oedd Y Rhyfel Oer?
+Beth oedd Cyfnod y Tuduriaid?
+Beth yw nwy?
+Beth ydy nwy?
+Be 'di nwy?
+Beth yw Dydd Mawrth Ynyd?
+Beth ydy Dydd Mawrth Ynyd?
+Be 'di Dydd Mawrth Ynyd?
+Beth yw Dydd Mercher?
+Beth ydy Dydd Mercher?
+Be 'di Dydd Mercher?
+Pwy yw Duw?
+Pwy ydy Duw?
+Pwy 'di Duw?
+Beth yw Pwyleg?
+Beth ydy Pwyleg?
+Be 'di Pwyleg?
+Beth yw calennig?
+Beth ydy calennig?
+Be 'di calennig?
+Beth yw ymgripiwr gwe?
+Beth ydy ymgripiwr gwe?
+Be 'di ymgripiwr gwe?
+Pwy oedd Iwan Llwyd?
+Beth yw dylunio?
+Beth ydy dylunio?
+Be 'di dylunio?
+Beth yw Gwasg Prifysgol Rhydychen?
+Beth ydy Gwasg Prifysgol Rhydychen?
+Be 'di Gwasg Prifysgol Rhydychen?
+Beth yw Gŵyl Calan Gaeaf?
+Beth ydy Gŵyl Calan Gaeaf?
+Be 'di Gŵyl Calan Gaeaf?
+Beth yw Americanwyr Affricanaidd?
+Beth ydy Americanwyr Affricanaidd?
+Be 'di Americanwyr Affricanaidd?
+Beth yw Dydd Gwener?
+Beth ydy Dydd Gwener?
+Be 'di Dydd Gwener?
+Beth yw Parc Cenedlaethol Eryri?
+Beth ydy Parc Cenedlaethol Eryri?
+Be 'di Parc Cenedlaethol Eryri?
+Beth yw Dydd Calan?
+Beth ydy Dydd Calan?
+Be 'di Dydd Calan?
+Beth yw Coluddion?
+Beth ydy Coluddion?
+Be 'di Coluddion?
+Pwy yw Gerallt Pennant?
+Pwy ydy Gerallt Pennant?
+Pwy 'di Gerallt Pennant?
+Beth yw Hen Galan?
+Beth ydy Hen Galan?
+Be 'di Hen Galan?
+Beth yw offeryn cerdd?
+Beth ydy offeryn cerdd?
+Be 'di offeryn cerdd?
+Beth yw Rhagfyr?
+Beth ydy Rhagfyr?
+Be 'di Rhagfyr?
+Beth yw dolur rhydd?
+Beth ydy dolur rhydd?
+Be 'di dolur rhydd?
+Beth yw Ieithoedd Celtaidd?
+Beth ydy Ieithoedd Celtaidd?
+Be 'di Ieithoedd Celtaidd?
+Beth yw Urdd Gobaith Cymru?
+Beth ydy Urdd Gobaith Cymru?
+Be 'di Urdd Gobaith Cymru?
+Beth yw carbon?
+Beth ydy carbon?
+Be 'di carbon?
+Beth yw New Jersey?
+Beth ydy New Jersey?
+Be 'di New Jersey?
+Beth yw Coron yr Eisteddfod Genedlaethol?
+Beth ydy Coron yr Eisteddfod Genedlaethol?
+Be 'di Coron yr Eisteddfod Genedlaethol?
+Beth yw Mwyalchen y mynydd?
+Beth ydy Mwyalchen y mynydd?
+Be 'di Mwyalchen y mynydd?
+Beth yw Hebraeg?
+Beth ydy Hebraeg?
+Be 'di Hebraeg?
+Beth yw Natsïaeth?
+Beth ydy Natsïaeth?
+Be 'di Natsïaeth?
+Beth yw ofn?
+Beth ydy ofn?
+Be 'di ofn?
+Beth yw caledwedd?
+Beth ydy caledwedd?
+Be 'di caledwedd?
+Beth yw tenis?
+Beth ydy tenis?
+Be 'di tenis?
+Beth yw Pasg?
+Beth ydy Pasg?
+Be 'di Pasg?
+Beth yw Geometreg?
+Beth ydy Geometreg?
+Be 'di Geometreg?
+Beth yw delwedd?
+Beth ydy delwedd?
+Be 'di delwedd?
+Beth yw hofrennydd?
+Beth ydy hofrennydd?
+Be 'di hofrennydd?
+Beth yw ffôn?
+Beth ydy ffôn?
+Be 'di ffôn?
+Beth yw dant?
+Beth ydy dant?
+Be 'di dant?
+Beth yw cyfiawnder?
+Beth ydy cyfiawnder?
+Be 'di cyfiawnder?
+Beth yw coedwig law?
+Beth ydy coedwig law?
+Be 'di coedwig law?
+Beth yw Trystan ac Esyllt?
+Beth ydy Trystan ac Esyllt?
+Be 'di Trystan ac Esyllt?
+Beth yw Democratiaeth?
+Beth ydy Democratiaeth?
+Be 'di Democratiaeth?
+Beth yw Gwyddorau cymdeithas?
+Beth ydy Gwyddorau cymdeithas?
+Be 'di Gwyddorau cymdeithas?
+Beth yw ffynhonnau Môn?
+Beth ydy ffynhonnau Môn?
+Be 'di ffynhonnau Môn?
+Beth yw Sul y Blodau?
+Beth ydy Sul y Blodau?
+Be 'di Sul y Blodau?
+Beth yw ymarfer corfforol?
+Beth ydy ymarfer corfforol?
+Be 'di ymarfer corfforol?
+Beth yw Llyfrgell y Gyngres?
+Beth ydy Llyfrgell y Gyngres?
+Be 'di Llyfrgell y Gyngres?
+Beth yw Cymdeithas yr Iaith?
+Beth ydy Cymdeithas yr Iaith?
+Be 'di Cymdeithas yr Iaith?
+Beth yw Ebrill?
+Beth ydy Ebrill?
+Be 'di Ebrill?
+Beth yw Groeg?
+Beth ydy Groeg?
+Be 'di Groeg?
+Beth yw Heddlu?
+Beth ydy Heddlu?
+Be 'di Heddlu?
+Beth yw Gêm?
+Beth ydy Gêm?
+Be 'di Gêm?
+Beth yw Llew?
+Beth ydy Llew?
+Be 'di Llew?
+Beth yw cerrynt trydanol?
+Beth ydy cerrynt trydanol?
+Be 'di cerrynt trydanol?
+Beth yw canllaw pum munud?
+Beth ydy canllaw pum munud?
+Be 'di canllaw pum munud?
+Beth yw Diwrnod y Meirw?
+Beth ydy Diwrnod y Meirw?
+Be 'di Diwrnod y Meirw?
+Beth yw aden?
+Beth ydy aden?
+Be 'di aden?
+Beth yw stumog?
+Beth ydy stumog?
+Be 'di stumog?
+Beth yw Pedair Cainc y Mabinogi?
+Beth ydy Pedair Cainc y Mabinogi?
+Be 'di Pedair Cainc y Mabinogi?
+Beth yw Hydref?
+Beth ydy Hydref?
+Be 'di Hydref?
+Pwy oedd Dafydd Dafis?
+Beth yw hawliau dynol?
+Beth ydy hawliau dynol?
+Be 'di hawliau dynol?
+Beth yw Dydd San Ffolant?
+Beth ydy Dydd San Ffolant?
+Be 'di Dydd San Ffolant?
+Beth yw Gorffennaf?
+Beth ydy Gorffennaf?
+Be 'di Gorffennaf?
+Beth yw Pêl-droed Americanaidd?
+Beth ydy Pêl-droed Americanaidd?
+Be 'di Pêl-droed Americanaidd?
+Beth yw llanw?
+Beth ydy llanw?
+Be 'di llanw?
+Beth yw lloeren?
+Beth ydy lloeren?
+Be 'di lloeren?
+Pwy yw Dafydd Iwan?
+Pwy ydy Dafydd Iwan?
+Pwy 'di Dafydd Iwan?
+Beth yw Cymry?
+Beth ydy Cymry?
+Be 'di Cymry?
+Beth yw Sbaner?
+Beth ydy Sbaner?
+Be 'di Sbaner?
+Beth yw Casino?
+Beth ydy Casino?
+Be 'di Casino?
+Beth yw Sefydliad Wicifryngau?
+Beth ydy Sefydliad Wicifryngau?
+Be 'di Sefydliad Wicifryngau?
+Beth yw organeb byw?
+Beth ydy organeb byw?
+Be 'di organeb byw?
+Beth yw Rhyfel Fietnam?
+Beth ydy Rhyfel Fietnam?
+Be 'di Rhyfel Fietnam?
+Beth yw egni solar?
+Beth ydy egni solar?
+Be 'di egni solar?
+Pwy yw Rhys Ifans?
+Pwy ydy Rhys Ifans?
+Pwy 'di Rhys Ifans?
+Beth yw clorin?
+Beth ydy clorin?
+Be 'di clorin?
+Beth yw Perseg?
+Beth ydy Perseg?
+Be 'di Perseg?
+Beth yw Enw deuenwol?
+Beth ydy Enw deuenwol?
+Be 'di Enw deuenwol?
+Pwy oedd Rhodri Morgan?
+Beth yw Gamblo?
+Beth ydy Gamblo?
+Be 'di Gamblo?
+Beth yw cyfansoddyn cemegol?
+Beth ydy cyfansoddyn cemegol?
+Be 'di cyfansoddyn cemegol?
+Pwy oedd Harri Morgan?
+Beth yw Sbam e-bost?
+Beth ydy Sbam e-bost?
+Be 'di Sbam e-bost?
+Beth yw cerddoriaeth electronig?
+Beth ydy cerddoriaeth electronig?
+Be 'di cerddoriaeth electronig?
+Beth yw fitamin?
+Beth ydy fitamin?
+Be 'di fitamin?
+Beth yw ôl-ddodiad rhyngrwyd?
+Beth ydy ôl-ddodiad rhyngrwyd?
+Be 'di ôl-ddodiad rhyngrwyd?
+Beth yw anatomeg?
+Beth ydy anatomeg?
+Be 'di anatomeg?
+Beth yw Y Môr-filwyr Brenhinol?
+Beth ydy Y Môr-filwyr Brenhinol?
+Be 'di Y Môr-filwyr Brenhinol?
+Beth yw Y Tebot Piws?
+Beth ydy Y Tebot Piws?
+Be 'di Y Tebot Piws?
+Beth yw Eisteddfod Genedlaethol yr Urdd?
+Beth ydy Eisteddfod Genedlaethol yr Urdd?
+Be 'di Eisteddfod Genedlaethol yr Urdd?
+Beth yw ymchwil?
+Beth ydy ymchwil?
+Be 'di ymchwil?
+Beth yw cadeirydd?
+Beth ydy cadeirydd?
+Be 'di cadeirydd?
+Beth yw cerddoriaeth boblogaidd?
+Beth ydy cerddoriaeth boblogaidd?
+Be 'di cerddoriaeth boblogaidd?
+Pwy oedd Dic Jones?
+Beth yw hinsawdd?
+Beth ydy hinsawdd?
+Be 'di hinsawdd?
+Beth yw glo?
+Beth ydy glo?
+Be 'di glo?
+Pwy oedd Santes Dwynwen?
