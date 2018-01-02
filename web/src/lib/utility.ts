@@ -47,9 +47,15 @@ export function isSafari(): boolean {
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === 'https://voice.mozilla.org';
+  //return window.location.origin === 'https://voice.mozilla.org';
+  return window.location.origin === 'http://paldaruo.techiaith.cymru';
 }
 
 export function getItunesURL(): string {
-  return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
+  //return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
+  return 'https://itunes.apple.com/gb/app/paldaruo/id840185808?mt=8';
+}
+
+export function getGooglePlayURL(): string {
+  return 'https://play.google.com/store/apps/details?id=com.cysgliad.paldaruo';
 }

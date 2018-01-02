@@ -230,8 +230,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private hasProfile(): boolean {
     if (this.props.user.state.age &&
-	this.props.user.state.accent &&
-	this.props.user.state.childhood &&
+	      this.props.user.state.accent &&
+	      this.props.user.state.childhood &&
         this.props.user.state.homeregion &&
         this.props.user.state.frequency &&
         this.props.user.state.context &&
@@ -357,14 +357,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     if (!this.hasProfile()){
         return <div id="record-container" className={className}>
-          <h2>
-                Mae angen i chi rhoi eich manylion proffil yn gyntaf cyn dechrau recordio
-          </h2>
+          <h2>Mae angen i chi rhoi eich manylion proffil yn gyntaf cyn dechrau recordio.</h2>
           <h3>Pam fod angen manylion eich proffil arnom?</h3>
-	  <p>Mae'n gymorth i ni weithiau fedru dosbarthu lleisiau tafodieithoedd gwahanol gyda'i gilydd, 
+	        <p>Mae'n gymorth i ni weithiau fedru dosbarthu lleisiau tafodieithoedd gwahanol gyda'i gilydd, 
              neu drin lleisiau hen/ifanc neu ddynion/merched ar wah&acirc;n. Gall y darnau hyn o wybodaeth
              fod yn help hefyd i wneud rhagor o ymchwil ar ynganu a ffoneteg y Gymraeg, felly rydyn i wedi
-	     ceisio meddwl am y cwestiynau mwyaf perthnasol i ofyn i chi!</p>
+	           ceisio meddwl am y cwestiynau mwyaf perthnasol i ofyn i chi!</p>
           <a href="/profile">Cliciwch yma i roi manylion eich proffil</a>
         </div>;
     }

@@ -17,6 +17,8 @@ import NotFound from './pages/not-found';
 import API from '../api';
 import User from '../user';
 
+import AudioWeb, { AudioInfo } from './pages/record/audio-web';
+
 const URLS = {
   ROOT: '/',
   HOME: '/home',
@@ -68,6 +70,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private bg: HTMLElement;
   private iOSBackground: any[];
 
+  audio: AudioWeb;
+  isUnsupportedPlatform: boolean;
+
   state = {
     isMenuVisible: false,
     pageTransitioning: false,
@@ -92,6 +97,18 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <img src="/img/wave-blue-mobile.png" />,
         <img src="/img/wave-red-mobile.png" />
       ];
+    }
+
+    this.audio = new AudioWeb();
+    
+    if (!this.audio.isMicrophoneSupported()) {
+      this.isUnsupportedPlatform = true;
+      return;
+    }
+
+    if (!this.audio.isAudioRecordingSupported()) {
+      this.isUnsupportedPlatform = true;
+      return;
     }
 
     this.uploadRecordings = this.uploadRecordings.bind(this);
@@ -316,6 +333,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   render() {
+    
     let pageName = this.getCurrentPageName();
     let robotPosition = pageName === 'record' ? this.state.robot : pageName;
     let className = pageName;
@@ -335,8 +353,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
       <div onClick={this.openInApp} id="install-app">Open in App
         <a onClick={this.closeOpenInApp}>X</a></div>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
-                          'active' : '')}>
-        <Logo navigate={this.props.navigate}/>
+                          'active' : '')}>        
+        {this.renderLogo()}
         {this.renderUser()}
         <button id="hamburger-menu" onClick={this.toggleMenu}
           className={(this.state.isMenuVisible ? ' is-active' : '')}>
@@ -446,26 +464,40 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private renderNav(id?: string) {
-    return <nav id={id} className="nav-list">
+    if (!this.isUnsupportedPlatform) {
+      return <nav id={id} className="nav-list">
       {this.renderTab('/', 'cartref')}
       {this.renderTab('/record', 'siarad')}
       {this.renderTab('/listen', 'gwrando')}
       {this.renderTab('/profile', 'proffil')}
-    </nav>;
+      </nav>;
+    } 
+    
   }
 
   private renderUser() {
-    return (
-      <div id="tally-box">
-        <span class="tally-recordings">
-          Nifer o recordiadau: 
-          {this.props.user.state.recordTally}
-        </span>
-        <span class="tally-verifications">
-          Nifer wedi'u gwerthuso: 
-          {this.props.user.state.validateTally}
-        </span>
-      </div>
-    );
+    if (!this.isUnsupportedPlatform) {
+      return (
+        <div id="tally-box">
+          <span class="tally-recordings">
+            Nifer o recordiadau: 
+            {this.props.user.state.recordTally}
+          </span>
+          <span class="tally-verifications">
+            Nifer wedi'u gwerthuso: 
+            {this.props.user.state.validateTally}
+          </span>
+        </div>
+      );
+    }
   }
+
+  private renderLogo() {
+    if (!this.isUnsupportedPlatform){
+      return (
+        <Logo navigate={this.props.navigate}/>
+      );
+    }    
+  }
+
 }
