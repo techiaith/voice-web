@@ -142,7 +142,7 @@ export default class Home extends Component<Props, void> {
 
       <h2>Am wybodaeth bellach</h2>
       <p>Ewch i wefan y project i gael y diweddaraf am ein gwaith ar adnabod lleferydd i'r Gymraeg : 
-      <a href="http://http://techiaith.cymru/lleferydd/adnabod-lleferydd/">http://techiaith.cymru/lleferydd/adnabod-lleferydd/</a></p>
+      <a href="http://techiaith.cymru/lleferydd/adnabod-lleferydd/">http://techiaith.cymru/lleferydd/adnabod-lleferydd/</a></p>
     </div>
     );
 
