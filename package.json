@@ -26,7 +26,8 @@
     "simple-git": "^1.72.0",
     "stream-transcoder": "0.0.5",
     "walk": "^2.3.9",
-    "wav":"^1.0.1"
+    "wav":"^1.0.1",
+    "underscore":"^1.8.3"
   },
   "devDependencies": {
     "@types/node": "7.0.29",

@@ -37,6 +37,8 @@ export default class API {
       var req = new XMLHttpRequest();
       req.open(options.type || 'GET', path);
 
+      req.setRequestHeader('uid', this.user.getId());
+	
       if (options.headers) {
         Object.keys(options.headers).forEach((header: string) => {
           req.setRequestHeader(header, options.headers[header]);
