@@ -291,7 +291,7 @@ export default class Clip {
   save(request: http.IncomingMessage): Promise<string> {
     let info = request.headers;
     let uid = info.uid;
-    let sentence = decodeURI(info.sentence as string);
+    let sentence = decodeURIComponent(info.sentence as string);
 
     if (!uid || !sentence) {
       return Promise.reject('Invalid headers');

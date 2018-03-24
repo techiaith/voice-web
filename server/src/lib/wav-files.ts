@@ -86,8 +86,8 @@ export default class Files {
    * Fetch a public url for the resource.
    */
   private getPublicUrl(key: string) {
-    console.log("files.ts::getPublicUrl. Returning http://paldaruo.techiaith.cymru/upload" + key  );
-    return "http://paldaruo.techiaith.cymru/upload" + key;
+    console.log("files.ts::getPublicUrl. Returning https://paldaruo.techiaith.cymru/upload" + key  );
+    return "https://paldaruo.techiaith.cymru/upload" + key;
     //console.log("files.ts::getPublicUrl. Returning http://localhost:9000/upload" + key  );
     //return "http://localhost:9000/upload" + key;
   }
