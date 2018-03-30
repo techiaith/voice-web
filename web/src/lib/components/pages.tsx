@@ -8,6 +8,7 @@ import Robot from './robot';
 import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
+import RecordingProgress from './pages/recording-progress';
 import Profile from './pages/profile';
 import FAQ from './pages/faq';
 import Privacy from './pages/privacy';
@@ -23,8 +24,7 @@ const URLS = {
   ROOT: '/',
   HOME: '/home',
   RECORD: '/record',
-  LISTEN: '/listen',
-  PROFILE: '/profile',
+  RECORDINGPROGRESS: '/recording-progress',
   FAQ: '/faq',
   PRIVACY: '/privacy',
   TERMS: '/terms',
@@ -64,6 +64,7 @@ interface PagesState {
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
+
   private header: HTMLElement;
   private scroller: HTMLElement;
   private content: HTMLElement;
@@ -92,6 +93,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     // On native iOS, we found some issues animating the css background
     // image during recording, so we use this as a more performant alternative.
     this.iOSBackground = [];
+
     if (isNativeIOS()) {
       this.iOSBackground = [
         <img src="/img/wave-blue-mobile.png" />,
@@ -185,20 +187,25 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private onRecord() {
 
-    // Callback function for when we've hidden the normal background.
-    let cb = () => {
-      this.bg.removeEventListener('transitionend', cb);
-      this.setState({
-        transitioning: false,
-        recording: true
-      });
-    };
-    this.bg.addEventListener('transitionend', cb);
-
     this.setState({
-      transitioning: true,
-      recording: false
+      recording: true
     });
+
+    //// Callback function for when we've hidden the normal background.
+    //let cb = () => {
+    //  this.bg.removeEventListener('transitionend', cb);
+    //  this.setState({
+    //    transitioning: false,
+    //    recording: true
+    //  });
+    //};
+    //this.bg.addEventListener('transitionend', cb);
+
+    //this.setState({
+    //  transitioning: true,
+    //  recording: false
+    //});
+
   }
 
   private onRecordStop() {
@@ -300,9 +307,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
   componentDidMount() {
     this.scroller = document.getElementById('scroller');
     this.content = document.getElementById('content');
-    this.header = document.querySelector('header');
-    this.bg = document.getElementById('background-container');
+    this.header = document.querySelector('header');    
     this.addScrollListener();
+
     this.setState({
       currentPage: this.props.currentPage,
     });
@@ -334,49 +341,34 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   render() {
     
+    //console.log("page.tsx::render");
+
     let pageName = this.getCurrentPageName();
     let robotPosition = pageName === 'record' ? this.state.robot : pageName;
     let className = pageName;
+
     if (this.state.transitioning) {
-      className += ' hiding';
+      className += ' hiding';      
     } else if (this.state.recording) {
-      className += ' recording';
+      className += ' recording';      
     }
 
     let bgStyle = '';
     if (this.state.recording) {
-      let scale = Math.max(( 1.3 * (this.state.recorderVolume - 28) / 100 ), 0);
+      let scale = Math.max(( 1.3 * (this.state.recorderVolume - 28) / 100 ), 0);      
       bgStyle = 'transform: scaleY(' + scale + ');';
     }
 
+    //console.log("className " + className);
+    //console.log("bgStyle \"" + bgStyle + "\"" );
+
     return <div id="main" className={className}>
-      <div onClick={this.openInApp} id="install-app">Open in App
-        <a onClick={this.closeOpenInApp}>X</a></div>
-      <header className={(this.state.isMenuVisible || this.state.scrolled ?
-                          'active' : '')}>        
-        {this.renderLogo()}
-        {this.renderUser()}
-        <button id="hamburger-menu" onClick={this.toggleMenu}
-          className={(this.state.isMenuVisible ? ' is-active' : '')}>
-          <Icon type="hamburger" />
-        </button>
-        {this.renderNav('main-nav')}
-      </header>
-      <div id="scroller"><div id="scrollee">
-        <div id="background-container" style={bgStyle}>{this.iOSBackground}</div>
-        <div class="hero">
-          <Robot position={(pageName === 'record' && this.state.robot) ||
-                           pageName} onClick={page => {
-            this.props.navigate('/' + page);
-          //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
-          }}></Robot>
-        </div>
-        <div class="hero-space"></div>
+      
+      <div id="scroller">
+        <div id="scrollee">
         <div id="content" className={this.state.pageTransitioning ?
                                      'transitioning': ''}>
-          <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-                navigate={this.props.navigate}
-                api={this.props.api} user={this.props.user} />
+
           <Record active={this.isPageActive(URLS.RECORD)} api={this.props.api}
                   onRecord={this.onRecord}
                   onRecordStop={this.onRecordStop}
@@ -384,75 +376,17 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   onVolume={this.onVolume}
                   onSubmit={this.uploadRecordings}
                   onDelete={this.clearRobot}
-                  navigate={this.props.navigate} user={this.props.user} />
-          <Listen active={this.isPageActive(URLS.LISTEN)}
-                  navigate={this.props.navigate}
-                  api={this.props.api} user={this.props.user}/>
-          <Profile user={this.props.user}
-                   active={this.isPageActive(URLS.PROFILE)} />
-          <FAQ active={this.isPageActive(URLS.FAQ)} />
-          <Privacy active={this.isPageActive(URLS.PRIVACY)} />
-          <Terms active={this.isPageActive(URLS.TERMS)} />
-          <NotFound active={this.isNotFoundActive()} />
+                  navigate={this.props.navigate} user={this.props.user} />      
+
+          <RecordingProgress active={this.isPageActive(URLS.RECORDINGPROGRESS)} 
+                  api={this.props.api}
+                  user={this.props.user} />
+
         </div>
-        <footer>          
-          <div id="moz-links">
-	    <div class="content">
-		   <img src="/img/pb.jpg" />  
-		   <img src="/img/WelshGovtlogo.png" />
-	    </div>
-	    <div class="content">
-		<p>
-		    Ariannwyd project Paldaruo gan Llywodraeth Cymru.
-		</p>
-	    </div>
-	    <div class="content">
-		<p>
-		    Rydyn ni'n diolch hefyd i S4C a Mozilla am eu cyfranniad at Paldaruo
-		</p>
-	    </div>
-	    <div class="content">
-		<p><br/>
-		   Nid oes gan y wefan hon unrhyw gysylltiad &acirc; Mozilla.<br/>		
-		</p>
-	    </div>
-	    <div class="content">
-		<p>
-		   Ewch i wefan <a href="http://voice.mozilla.org" style="color:white">Mozilla CommonVoice</a> i ddarllen mwy am 
-		</p>
-	    </div>
-	    <div class="content">
-		<p> 
-		   uchelgais Mozilla i ddatblygu adnabod lleferydd cod agored.
-		</p>
-	    </div>
-            <div class="content">
-              <div class="links">
-                <p>
-                  <a onClick={this.linkNavigate} href="/privacy">Preifatrwydd</a>
-                  <a onClick={this.linkNavigate} href="/terms">Telerau</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div></div>
-      <div id="navigation-modal"
-           className={this.state.isMenuVisible && 'is-active'}>
-      {this.renderNav()}
-      </div>
-      <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-        <div class="privacy-content">
-	  <h2>
-	  Wrth defnyddio gwefan Paldaruo, rydych yn datgan eich bod wedi darllen a derbyn y <a target="_blank" href="/terms">Telerau</a> a&quot;r <a target="_blank" href="/privacy">Polisi Preifatrwydd</a>.
-	  </h2>
-          <div class="button-holder">
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>Rwy&quot;n cytuno</button>
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>Nid wyf yn cytuno</button>
-          </div>
         </div>
-      </div>
+      </div>            
     </div>;
+    
   }
 
   private renderTab(url: string, name: string) {
@@ -468,8 +402,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
       return <nav id={id} className="nav-list">
       {this.renderTab('/', 'cartref')}
       {this.renderTab('/record', 'siarad')}
-      {this.renderTab('/listen', 'gwrando')}
-      {this.renderTab('/profile', 'proffil')}
       </nav>;
     } 
     

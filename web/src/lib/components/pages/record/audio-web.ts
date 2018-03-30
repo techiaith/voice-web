@@ -156,7 +156,7 @@ export default class AudioWeb {
     }).catch((err) => {
       if (err === ERROR_MSG.ERR_NO_MIC) {
 	// @todo - cyfieithu
-        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then(() => {
+        return confirm('Rhaid i chi ganiatáu galluogi\'r meicroffon / You must allow microphone access.', 'Ceisio eto / Retry', 'Canslo / Cancel').then(() => {
           window.location.reload();
         });
       } else {

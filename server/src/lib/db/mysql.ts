@@ -1,4 +1,5 @@
 import { getFirstDefined } from '../utility';
+import { resolve } from 'path';
 
 const mysql = require('mysql');
 const config = require('../../../../config.json');
@@ -16,7 +17,7 @@ type MysqlOptions = {
 // Default configuration values, notice we dont have password.
 const DEFAULTS = {
   user: 'voiceweb',
-  database: 'voiceweb',
+  database: 'voiceweb-en',
   password: '',
   host: 'localhost',
   port: 3306,
@@ -38,7 +39,7 @@ export default class Mysql {
         user: getFirstDefined(
           options.user, config.MYSQLUSER, DEFAULTS.user),
         database: getFirstDefined(
-          options.database, config.MYSQLDB, DEFAULTS.database),
+          options.database, config.MYSQLDBNAME, DEFAULTS.database),
         password: getFirstDefined(
           options.password, config.MYSQLPASS, DEFAULTS.password),
         host: getFirstDefined(
@@ -51,8 +52,10 @@ export default class Mysql {
           options.idleTimeoutMillis, DEFAULTS.idleTimeoutMillis),
     };
 
+    this.create_database_if_not_exist();
+
     this.pool = mysql.createPool({
-        connectionLimit : 100,
+        connectionLimit : 10,
         host            : myConfig.host,
         user            : myConfig.user,
         password        : myConfig.password,
@@ -60,23 +63,57 @@ export default class Mysql {
     });
 
     this.pool.on('error', this.handleIdleError.bind(this));
-  }
 
+  }
+  
   private handleIdleError(err: any) {
     console.error('idle client error', err.message);
   }
 
-  query(text: string, values: any[], callback: Function) {
-    this.pool.query(text, function (error, results, fields) {
-        error ? callback(error.message, null) : callback(null, results);
+  private create_database_if_not_exist() {
+
+    let connection = mysql.createConnection({
+      host            : config.MYSQLHOST,
+      user            : config.MYSQLUSER,
+      password        : config.MYSQLPASS
     });
+
+    connection.connect();
+    connection.query('CREATE DATABASE IF NOT EXISTS ' + config.MYSQLDBNAME, null, (err, result) => 
+      {
+        if (err) {
+          console.log("CREATE DATABASE EXCEPTION: " + err);
+          throw err;
+        }        
+      });
+    connection.end();
+    
+  }
+
+  // query(text: string, values: any, callback: Function) {
+  //   this.pool.query(text, values, function (error, results, fields) {
+  //       error ? callback(error.message, null) : callback(null, results);
+  //   });
+  // }
+
+  query(text: string, values: any){
+   return new Promise((resolve, reject) => {
+     console.log("sql: " + text + " values: " + JSON.stringify(values));
+     this.pool.query(text, values, function (err, result, fields) {
+       if (err){
+         return reject(err);          
+       }
+       resolve(result);
+     }
+   )});
   }
 
   connect(callback: Function) {
-    return this.pool.connect(callback);
+    return this.pool.getConnection(callback);
   }
 
   end() {
     this.pool.end();
   }
+
 }

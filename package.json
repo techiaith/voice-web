@@ -26,8 +26,9 @@
     "simple-git": "^1.72.0",
     "stream-transcoder": "0.0.5",
     "walk": "^2.3.9",
-    "wav":"^1.0.1",
-    "underscore":"^1.8.3"
+    "wav": "^1.0.1",
+    "underscore": "^1.8.3",
+    "mysql": "^2.15.0"
   },
   "devDependencies": {
     "@types/node": "7.0.29",
@@ -35,7 +36,6 @@
     "gulp-nodemon": "2.2.1",
     "gulp-postcss": "^7.0.0",
     "gulp-typescript": "^3.1.6",
-    "mysql": "2.13.0",
     "postcss-cssnext": "^3.0.2",
     "typescript": "^2.3.4"
   }

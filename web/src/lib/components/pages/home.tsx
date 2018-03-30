@@ -87,23 +87,7 @@ export default class Home extends Component<Props, void> {
           {this.renderIntroduction()}
         </div>
 
-        <div className="right-column">
-            <p class="strong">Mae modd i chi helpu hefyd drwy wrando a gwerthuso recordiadau eraill!</p>
-            <img class="curved-arrow" src="/img/curved-arrow.png" />
-            <img class="circle" src="/img/circle.png" />
-          </div>
-          <div id="donate">
-            <button onClick={evt => {
-              this.props.navigate('/record')}}>Cyfrannwch eich llais!</button>
-          </div>
-        </div>
-
-        <div id="try-it-container">
-          <h1>Rhowch gynnig arni..</h1>
-          <p id="help-home" class="strong">Helpwch ni i werthuso'r recordiadau.</p>
-          <br/>
-          <Validator onVote={this.onVote} api={this.props.api} />
-        </div>
+	</div>
 
       </div>;
     }
@@ -113,36 +97,15 @@ export default class Home extends Component<Props, void> {
 
     return (
     <div>
-      <h2>Beth yw adnabod lleferydd a pham Paldaruo?</h2>
-      <p>Mewn sawl sefyllfa erbyn hyn mae technolegau adnabod lleferydd yn caniat&aacute;u i ni 
-      siarad gyda'n cyfrifiaduron a'n dyfeisiau symudol fel iPhone neu iPad. Mae modd eu holi 
-      ar lafar (e.e. Siri ar yr iPhone, neu Alexa gan Amazon) am wybodaeth neu i'w gorchymyn 
-      i gyflawni tasg ar ein rhan, heb fod angen pwyso botymau a llywio dewislenni di-ri.</p>
+      <h2>LLEISIWR</h2>
+      <p> 
+	blah blah blah
+      </p>
       <br/>
     
-      <p>Bydd y dull yma o ddefnyddio ein hoffer cyfrifiadurol yn dod yn fwyfwy cyffredin a naturiol 
-      wrth i adnabod lleferydd a thechnolegau iaith eraill ymledu i amrywiaeth o offer eraill o 
-      fewn y t&#x0177;, y swyddfa a'n ddysfeisiadau personol.</p>
-      <br/>
-    
-      <p>Y broblem fawr yw nad oes modd hyd yn hyn i ni siarad gyda'n cyfrifiaduron yn Gymraeg. 
-      Os ydyn ni eisiau i dechnolegau a gwasanaethau digidol newydd ein cynorthwyo drwy'r Gymraeg, 
-      mae'n bwysig datblygu technoleg adnabod lleferydd Cymraeg</p>
-      <br/>
-
-      <h2>Sut mae creu adnabod lleferydd?</h2>
-      <p>Mae angen casglu nifer mawr o recordiadau o bob math o leisiau gwahanol yn siarad testun arbennig, 
-      wedi'i gynllunio i ddal pob cyfuniad o seiniau Cymraeg, er mwyn hyfforddi system adnabod lleferydd
-      gyffredinol.</p>
-      <br/>
-
-      <p>Felly recordiwch eich llais ar ein cyfer a rhannwch y wefan hon gyda'ch holl deulu a'ch ffrindiau sy'n 
-      medru siarad Cymraeg.</p>
-      <br/>
-
       <h2>Am wybodaeth bellach</h2>
-      <p>Ewch i wefan y project i gael y diweddaraf am ein gwaith ar adnabod lleferydd i'r Gymraeg : 
-      <a href="http://techiaith.cymru/lleferydd/adnabod-lleferydd/">http://techiaith.cymru/lleferydd/adnabod-lleferydd/</a></p>
+      <p>Ewch i wefan y project i gael y diweddaraf am ein gwaith : 
+      <a href="http://lleisiwr.techiaith.cymru/">http://lleisiwr.techiaith.cymru/</a></p>
     </div>
     );
 

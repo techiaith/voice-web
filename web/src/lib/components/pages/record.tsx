@@ -12,9 +12,10 @@ import { getItunesURL, isFocus, countSyllables, isNativeIOS, generateGUID }
   from '../../utility';
 import confirm from '../confirm';
 
-const CACHE_SET_COUNT = 9;
+const CACHE_SET_COUNT = 3;
 const SET_COUNT = 3;
 const PAGE_NAME = 'record';
+
 
 interface RecordProps {
   active: string;
@@ -58,6 +59,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   };
 
   constructor(props) {
+
     super(props);
 
     this.tracker = new Tracker();
@@ -183,7 +185,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         this.setState({
           uploading: false
         });
-  	//@todo - cyfieithu
+  	    //@todo - cyfieithu
         confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
           if (!keep) {
             this.reset();
@@ -202,7 +204,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       console.error('cannot undo, no recordings');
       return;
     }
-
 
     // If user was recording when going back, make sure to throw
     // out this new recording too.
@@ -283,6 +284,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.props.onRecordStop && this.props.onRecordStop();
   }
 
+
   newSentenceSet() {
     // If we don't have any sentences in our cache, fill it and try again.
     if (this.sentenceCache.length < SET_COUNT) {
@@ -294,11 +296,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     let newOnes = this.sentenceCache.splice(0, SET_COUNT);
     this.setState({ sentences: newOnes });
 
-    // Preemptively fill setnece cache when we get low.
-    if (this.sentenceCache.length < SET_COUNT * 2) {
-      this.refillSentenceCache();
-    }
+    // causes prompts to be repeated in smaller collections.
+    // // Preemptively fill setnece cache when we get low.
+    // if (this.sentenceCache.length < SET_COUNT * 2) {
+    //   console.log("pre-emptive fill of sentenceCache");  
+    //   this.refillSentenceCache();
+    // }
+
   }
+
 
   render() {
     // Make sure we can get the microphone before displaying anything.
@@ -306,17 +312,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (this.isUnsupportedPlatform) {
       return <div className={'unsupported ' + this.props.active}>
         <h2>
+          Mae'n ddrwg gennym, ond nid yw eich platfform yn cael ei gefnodi.
+        </h2>
+        <h2>
           We're sorry, but your platform is not currently supported.
         </h2>
         <p>
-          On desktop computers, you can download the latest:
-          <a target="_blank" href="https://www.firefox.com/">
-            <Icon type="firefox" />Firefox</a> or
-          <a target="_blank" href="https://www.google.com/chrome">
-            <Icon type="chrome" />Chrome</a>
+          Mae modd defnyddio porwyr Chrome neu Firefox ar beirannau Windows, Mac OS X neu Android.
         </p>
-        <p><b>iOS</b> users can download our free app:</p>
-        <a target="_blank" href={getItunesURL()}><img src="/img/appstore.svg" /></a>
+        <p>
+          You may use Chrome or Firefox on Windows, Mac OS X or Android devices.
+        </p>                 
       </div>;
     }
 
@@ -355,18 +361,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       progress += (100 / SET_COUNT) * 1;
     }
 
-    if (!this.hasProfile()){
-        return <div id="record-container" className={className}>
-          <h2>Mae angen i chi rhoi eich manylion proffil yn gyntaf cyn dechrau recordio.</h2>
-          <h3>Pam fod angen manylion eich proffil arnom?</h3>
-	        <p>Mae'n gymorth i ni weithiau fedru dosbarthu lleisiau tafodieithoedd gwahanol gyda'i gilydd, 
-             neu drin lleisiau hen/ifanc neu ddynion/merched ar wah&acirc;n. Gall y darnau hyn o wybodaeth
-             fod yn help hefyd i wneud rhagor o ymchwil ar ynganu a ffoneteg y Gymraeg, felly rydyn i wedi
-	           ceisio meddwl am y cwestiynau mwyaf perthnasol i ofyn i chi!</p>
-          <a href="/profile">Cliciwch yma i roi manylion eich proffil</a>
-        </div>;
-    }
-
     return <div id="record-container" className={className}>
       <div id="voice-record">
         <p id="recordings-count">
@@ -381,12 +375,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <div id="record-button" onTouchStart={this.onRecordClick}
                                 onClick={this.onRecordClick}></div>
         <p id="record-help">
-          Cliciwch i gychwyn recordio ac yna darllenwch y destun i'r cyfrifiadur.
-        </p>
+          Cliciwch i gychwyn recordio ac yna darllenwch y testun i'r cyfrifiadur.
+	  <br/><br/>
+	  Mae'r system yn recordio'r sain pan fydd y botwm wedi troi'n binc.
+    <br/><br/>
+    Cliciwch y botwm eto er mwyn gorffen recordio ac i fynd ymlaen i'r testun nesaf.
+	</p>
       </div>
-      <div id="voice-submit">
-        <p id="thank-you"><span>Diolch yn fawr!</span></p>
-        <p id="want-to-review"><span>Hoffwch chi werthuso eich recordiadau?</span></p>
+    <div id="voice-submit">        
         <p id="box-headers">
           <span>Chwarae/Stop</span>
           <span>Ail-recordio</span>

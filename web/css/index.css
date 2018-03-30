@@ -25,7 +25,7 @@
   --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
-  --desktop-width: 70rem;
+  --desktop-width: 55rem;
   --hero-height: 15.3rem;
   --hero-height-mobile: 12.5rem;
   --robot-height: 19rem;
@@ -88,8 +88,8 @@ html, body, #main {
   width: 100%;
 }
 
-body {
-}
+/* body {
+} */
 
 h1, h2, h3, h4 {
   font-family: var(--strong-font-family);
@@ -194,8 +194,8 @@ input[type="text"] {
   padding: 0px 2px 1px;
 }
 
-label {
-}
+/* label {
+} */
 
 input:invalid {
   border-color: red;
@@ -230,7 +230,7 @@ input:invalid {
   font-family: Icons;
   font-size: 200%;
   content: attr(data-icon);
-  speak: none;
+  /* speak: none; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -579,7 +579,7 @@ header.active {
   cursor: pointer;
   flex-grow: 0;
   margin: 0 var(--page-margin);
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 
 .tab .tab-name {
@@ -1111,8 +1111,8 @@ body:not(.ios) .recording #background-container {
   display: flex;
 }
 
-#home-container {
-}
+/* #home-container {
+} */
 
 #home-title {
   padding: 1rem 0;
@@ -1227,9 +1227,8 @@ body:not(.ios) .recording #background-container {
   color: var(--color-listen);
 }
 
-#home-container .validator {
-
-}
+/* #home-container .validator {
+} */
 
 #listen-container {
   padding: 0.7rem;
@@ -1252,8 +1251,7 @@ body:not(.ios) .recording #background-container {
 
 #record-container {
   position: relative;
-  top: -4.5rem;
-  padding-left: var(--sidebar-width);
+  top: 4.5rem;
   text-align: center;
   padding-top: 0;
 }
@@ -1505,8 +1503,8 @@ body:not(.ios) .recording #background-container {
   height: var(--input-height);
 }
 
-#profile-container .unsaved {
-}
+/* #profile-container .unsaved {
+} */
 
 #opt-in {
   margin-top: 1rem;
@@ -1739,4 +1737,28 @@ label[for="send-emails"] {
 
 .focus #donate {
   padding-bottom: 1rem;
+}
+
+#generate-button {
+  margin-top:50px;
+}
+
+.progress {
+  margin-top: 50px;
+}
+
+.recordings-completed-box {
+  margin-top:20px;
+}
+
+.recordings-completed-box span {
+ font-weight: bold;
+}
+
+.recordings-not-completed-box {
+  margin-top: 20px;
+}
+
+.recordings-not-completed-box span {
+  font-weight: bold;
 }

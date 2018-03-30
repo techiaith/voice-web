@@ -122,38 +122,33 @@ export default class User {
     this.restore();
   }
 
-  private restore(): void {
-    try {
-      this.state = JSON.parse(this.getStore());
-    } catch (e) {
-      console.error('failed parsing storage', e);
-      localStorage.removeItem(USER_KEY);
-      this.state = null;
-    }
-
-    if (!this.state) {
-      this.state = {
-        userId: generateGUID(),
+  private restore(): void {  
+    let params = (new URL(document.location.toString()).searchParams);
+    let uid = params.get("uid");
+    this.state = {
+        userId: uid,
         email: '',
         sendEmails: false,
         accent: '',
         age: '',
         gender: '',
-  	childhood: '',
-  	school: '',
-  	homeregion: '',
-  	frequency: '',
-  	context: '',
+  	    childhood: '',
+    	  school: '',
+  	    homeregion: '',
+  	    frequency: '',
+  	    context: '',
         regionalaccent: '',
         clips: 0,
-        privacyAgreed: false,
+        privacyAgreed: true,
         recordTally: 0,
         validateTally: 0
-      };
-      this.save();
-    }
+    };
+    
+    this.save();
+
   }
 
+  
   private getStore(): string {
     return localStorage && localStorage.getItem(USER_KEY);
   }
@@ -268,7 +263,8 @@ export default class User {
   }
 
   public hasAgreedToPrivacy() {
-    return this.state.privacyAgreed;
+    //return this.state.privacyAgreed;
+    return true;
   }
 
   public agreeToPrivacy() {

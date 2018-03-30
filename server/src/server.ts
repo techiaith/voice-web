@@ -4,6 +4,8 @@ import API from './lib/api';
 import Clip from './lib/wav-clip';
 import Logger from './lib/logger';
 import Static from './lib/static';
+import Mysql from './lib/db/mysql';
+
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
@@ -12,6 +14,7 @@ const CLIENT_PATH = '../../web';
 
 const config = require(CONFIG_PATH);
 const path = require('path');
+
 
 export default class Server {
   api: API;
@@ -27,6 +30,7 @@ export default class Server {
     // JSON format all console operations.
     this.logger = new Logger();
     this.logger.overrideConsole();
+    
   }
 
   /**
@@ -63,12 +67,13 @@ export default class Server {
       let elapsedSeconds = Math.round( (Date.now() - start) / 1000 );
       console.log('APPLICATION LOADED', elapsedSeconds);
     });
-
+    
     // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
     let server = http.createServer(this.handleRequest.bind(this));
     server.listen(port);
     console.log(`listening at http://localhost:${port}`);
+
   }
 }
 

@@ -8,6 +8,6 @@ export default (props) => {
       props.navigate('/');
     }}>
     <img src="/img/paldaruo.png" /><br />
-    <span class="main-title">Paldaruo</span><br />
+    <span class="main-title">LLEISIWR</span><br />
   </a>;
 }

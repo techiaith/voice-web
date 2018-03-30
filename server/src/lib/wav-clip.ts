@@ -1,6 +1,7 @@
 import * as http from 'http';
 import Files from './wav-files';
 import { getFileExt } from './utility';
+import Mysql from './db/mysql';
 
 const ms = require('mediaserver');
 const path = require('path');
@@ -29,9 +30,11 @@ const RECORDINGS_ROOT_DIR = '/recordings/';
  */
 export default class Clip {
   private files: Files;
+  mysql: any;
 
   constructor() {
     this.files = new Files();
+    this.mysql = new Mysql();
   }
 
   /**
@@ -51,31 +54,7 @@ export default class Clip {
 
     // Save the data locally, stream to client, remove local data (Performance?)
     console.log("clip.ts::streamAudio(" + key + "){}");
- 
     ms.pipe(request, response, key);
-
-
-    //let tmpFilePath = path.join(UPLOAD_PATH, key);
-    //let tmpFileDirectory = path.dirname(tmpFilePath);
-    //let f = ff(() => {
-    //  mkdirp(tmpFileDirectory, f.wait());
-    //}, () => {
-    //  let retrieveParam = {Bucket: BUCKET_NAME, Key: key};
-    //  console.log("clip.ts::streamAudio(){this.s3.getObject()}");
-    //  //let awsResult = this.s3.getObject(retrieveParam);
-    //  //f.pass(awsResult);
-    //}, (awsResult) => {
-    //  let tmpFile = fs.createWriteStream(tmpFilePath);
-    //  tmpFile = awsResult.createReadStream().pipe(tmpFile);
-    //  tmpFile.on('finish', f.wait());
-    //}, () => {
-    //  ms.pipe(request, response, tmpFilePath);
-    //}).onError(err => {
-    //  console.error('streaming audio error', err, err.stack);
-    //  response.writeHead(500);
-    //  response.end('Server error, could not fetch audio data.');
-    //});
-
   }
 
   /**
@@ -211,11 +190,11 @@ export default class Clip {
 
       let f = ff(() => {
 
-	fs.writeFile(voteFile, vote, function(err) {
-		if (err){
-			console.log(err);
-		}
-	});
+	      fs.writeFile(voteFile, vote, function(err) {
+		      if (err){
+			      console.log(err);
+		      }
+	      });
 
       }, () => {
 
@@ -289,15 +268,17 @@ export default class Clip {
    * Save the request body as an audio file.
    */
   save(request: http.IncomingMessage): Promise<string> {
+
     let info = request.headers;
     let uid = info.uid;
     let sentence = decodeURIComponent(info.sentence as string);
-
+    
     if (!uid || !sentence) {
       return Promise.reject('Invalid headers');
     }
-
+   
     return new Promise((resolve: Function, reject: Function) => {
+
       // Obtain contentType
       let contentType = info['content-type'] as string;
 
@@ -307,12 +288,21 @@ export default class Clip {
       let file = folder + filePrefix + '.wav';
       let txtFile = folder + filePrefix + '.txt';
 
+      // update the database
+      this.mysql.query("INSERT INTO RecordedSentences SET ?", {uid: uid, guid: filePrefix})        
+        .then ( result => { 
+           //console.log(result);
+        }, err => {
+           console.log("INSERT RecordedSentences exception: " + err);
+        });
+
+      //
       let f = ff(() => {
 
-	// if the folder does not exist, we create it
-	if (!fs.existsSync(folder)){
-		fs.mkdirSync(folder);
-	}
+	      // if the folder does not exist, we create it
+	      if (!fs.existsSync(folder)){
+		      fs.mkdirSync(folder);
+	      }
 
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
@@ -324,6 +314,7 @@ export default class Clip {
           });
           request.on('end', f.wait());
         }
+
       }, (chunks) => {
 
         // If upload was base64, make sure we decode it first.
@@ -331,29 +322,37 @@ export default class Clip {
           let passThrough = new PassThrough();
           passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'));
           let transcoder = new Transcoder(passThrough);
-	  transcoder = transcoder.audioCodec('pcm_s16le').format('wav').sampleRate(48000).channels(1);
-	  transcoder.writeToFile(file);          
-
+	        transcoder = transcoder.audioCodec('pcm_s16le').format('wav').sampleRate(48000).channels(1);
+	        transcoder.writeToFile(file);          
         } else {
-          // For now base64 uploads, we can just stream data.
+          // For non base64 uploads, we can just stream data.
           let transcoder = new Transcoder(request);
           transcoder = transcoder.audioCodec('pcm_s16le').format('wav').sampleRate(48000).channels(1);
-	  transcoder.writeToFile(file);
+	        transcoder.on('error',function(error){
+		        if (error){
+          			console.log("Error writing file to disk: " + error);
+              			throw error;
+		        }
+	        });
+	        transcoder.writeToFile(file);
         }
+        
+    }, () => {
+        // File saving is now complete.
 
         // Don't forget about the sentence text!
-	fs.writeFile(txtFile, sentence, function(err){
-		if (err){
-			return console.log(err);
-		}
-	});
-	
-      }, () => {
+        fs.writeFile(txtFile, sentence, function(err){
+          if (err){
+            return console.log(err);
+          }
+        });
 
-        // File saving is now complete.
         resolve(filePrefix);
+        
       }).onError(reject);
+
     });
+
   }
 
   serveRandomClipJson(request: http.IncomingMessage,

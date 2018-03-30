@@ -1,5 +1,6 @@
 import User from './user';
 import AudioIOS from './components/pages/record/audio-ios';
+import RecordingProgress from './components/pages/recording-progress';
 
 export interface Clip {
   glob: string;
@@ -11,6 +12,11 @@ export interface ClipJson {
   glob: string;
   text: string;
   sound: string;
+}
+
+export interface RecordingProgressJson {
+  recorded: string;
+  notrecorded: string;  
 }
 
 /**
@@ -104,6 +110,7 @@ export default class API {
       });
   }
 
+  
   /**
    * Ask the server for a clip
    */
@@ -113,6 +120,26 @@ export default class API {
         let response = req.response as ClipJson;
         return Promise.resolve(response);
       });
+  }
+
+  getRecordingsProgress(): Promise<RecordingProgressJson> {
+    return this.fetch('api/recordingprogress.json', { responseType: 'json', headers: {'uid': this.user.getId()}})
+      .then((req: XMLHttpRequest) => {
+        let response = req.response as RecordingProgressJson;
+        return Promise.resolve(response);
+      });
+  }
+ 
+  generateVoice(): Promise<Event> {
+    return new Promise((resolve: EventListener, reject: EventListener) => {
+      var req = new XMLHttpRequest();
+      req.responseType = 'text';
+      req.upload.addEventListener('load', resolve);
+      req.upload.addEventListener('error', reject);
+      req.open('POST', 'api/generatevoice');      
+      req.setRequestHeader('uid', this.user.getId());
+      req.send();
+    });
   }
 
   castVote(glob: string, vote: boolean): Promise<Event> {
