@@ -1,20 +1,20 @@
-ARLYWYDD YR UNOL DALEITHIAU, BARTHOLOMEW ROBERTS, CYMRU
-BETHAN RHYS ROBERTS, CYFNOD Y TUDURIAID, HELYNTION BECA
-RHYFEL CARTREF AMERICA, Y BRYTHONIAID, Y CHWYLDRO DIWYDIANNOL
-Y DIRWASGIAD MAWR, YR OESOEDD CANOL, Y RHYFEL OER
-BOB DYLAN, BRYN FôN, CARYL PARRY JONES
-CERI WYN JONES, ﻿CYMRAEG, DAFYDD DAFIS
-DAFYDD IWAN, DEWI 'PWS' MORRIS, DEWI SANT
-DIC JONES, DUW, DYFAN REES
-EDWARD H. DAFIS, EMYR WYN, FFION DAFIS
-GARETH F. WILLIAMS, GAYNOR MORGAN REES, GERALLT LLOYD OWEN
-GERALLT PENNANT, GWE FYD-EANG, GWYNFOR EVANS
-HARRI MORGAN, HEATHER JONES, HELEDD CYNWAL
-HUW CHISWELL, IESU, IEUAN ROBERTS
-IFAN HUW DAFYDD, IWAN LLWYD, JOHN PIERCE JONES
-J. O. ROBERTS, KATE ROBERTS, LLYWELYN FAWR
-MANON STEFFAN ROS, MYRDDIN AP DAFYDD, BASGIAID
-CYMRY, RICHARD ELFYN, RHODRI MORGAN
-RHYS IFANS, SAUNDERS LEWIS, TOM JONES
-TUDUR DYLAN JONES, TUDUR OWEN, Y BRENIN ARTHUR
-Y CELTIAID, Y DYWYSOGES GWENLLIAN, Y FAM TERESA
+Arlywydd yr Unol Daleithiau, Bartholomew Roberts, Cymru
+Bethan Rhys Roberts, Cyfnod y Tuduriaid, Helyntion Beca
+Rhyfel Cartref America, y Brythoniaid, y Chwyldro Diwydiannol
+y Dirwasgiad Mawr, yr Oesoedd Canol, y Rhyfel Oer
+Bob Dylan, Bryn Fôn, Caryl Parry Jones
+Ceri Wyn Jones, ﻿Cymraeg, Dafydd Dafis
+Dafydd Iwan, Dewi Pws Morris, Dewi Sant
+Dic Jones, Duw, Dyfan Rees
+Edward H. Dafis, Emyr Wyn, Ffion Dafis
+Gareth F. Williams, Gaynor Morgan Rees, Gerallt Lloyd Owen
+Gerallt Pennant, gwe fyd-eang, Gwynfor Evans
+Harri Morgan, Heather Jones, Heledd Cynwal
+Huw Chiswell, Iesu, Ieuan Roberts
+Ifan Huw Dafydd, Iwan Llwyd, John Pierce Jones
+J.O. Roberts, Kate Roberts, Llywelyn Fawr
+Manon Steffan Ros, Myrddin ap Dafydd, Basgiaid
+Cymry, Richard Elfyn, Rhodri Morgan
+Rhys Ifans, Saunders Lewis, Tom Jones
+Tudur Dylan Jones, Tudur Owen, y brenin Arthur
+y celtiaid, y dywysoges Gwenllian, y fam Teresa
