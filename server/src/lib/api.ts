@@ -179,7 +179,7 @@ export default class API {
   serveGenerateVoice(response: http.ServerResponse, uid: string) {
     response.writeHead(200);
     console.log("serveGenerate voice:" + uid);
-    let marytts_voicebuild_request_url = "http://marytts-voicebuild-api:8008/generate_voice?lang=cy&uid=" + uid
+    let marytts_voicebuild_request_url = "http://marytts-voicebuild-api:8008/generate_voice?uid=" + uid
     httprequest(marytts_voicebuild_request_url, function(error, voicebuild_response, body){
 		console.log("error: ", error);
 		console.log("statusCode: ", voicebuild_response && voicebuild_response.statusCode);
